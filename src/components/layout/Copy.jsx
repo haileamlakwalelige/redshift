@@ -5,8 +5,8 @@ const Copy = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div className="bg-primary ">
-      <div className="flex justify-center md:justify-between items-center gap-10 flex-wrap mx-2 sm:mx-6 ">
-        <div className="flex justify-center items-center gap-2 text-white py-8 border-t-[1px] border-[#212741] ">
+      <div className="flex justify-center md:justify-between items-center lg:gap-10 flex-wrap mx-2 sm:mx-6 py-2">
+        <div className="flex justify-center items-center gap-2 text-white ">
           <FaRegCopyright size={30} />
           <p>{currentYear} Redshift. All right reserved.</p>
         </div>
