@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+  }
+  
+  .scrollable-image {
+    width: 50%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .scrollable-image img {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between images */
+    cursor: pointer;
+  }
+  
+  .data-display {
+    width: 50%;
+    padding-left: 10px; /* Add padding for better visual separation */
+  }
+  
+  /* Style for selected image */
+  .selected {
+    border: 2px solid blue;
+  }
+  
