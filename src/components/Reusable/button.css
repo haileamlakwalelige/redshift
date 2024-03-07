@@ -1,0 +1,59 @@
+.car-animation-container {
+    display: flex;
+    align-items: center;
+    /* background-color: red;  */
+    @apply hover:max-w-[170px] max-w-[180px] pl-6 bg-primary;
+}
+
+.red {
+    /* background-color: red; */
+    @apply bg-primary
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+.hover-button {
+    width: auto;
+    /* Adjust button width */
+    height: auto;
+    /* Adjust button height */
+    border: none;
+    /* background-color: red; */
+    @apply bg-primary;
+    cursor: pointer;
+}
+
+.car-container {
+    position: relative;
+    left: 0;
+    /* Initial position */
+    margin-left: 10px;
+    /* Add space between button and car */
+    opacity: 0;
+    /* Initially hide the car image */
+    transition: opacity 0.5s ease, left 3s ease;
+    /* Fade-in transition and move transition */
+}
+
+.hover-button:hover+.content-container .car-container,
+.content-container:hover .car-container {
+    opacity: 1;
+    /* Make the car image visible */
+    left: 0%;
+    /* Slide the car to the right */
+}
+
+.content-container:hover .car-container {
+    left: 20%;
+    /* Slide the car to the right when hovering over the text */
+}
+
+.car-image {
+    width: 30px;
+    /* Adjust image width */
+    height: 30px;
+    /* Adjust image height */
+}
