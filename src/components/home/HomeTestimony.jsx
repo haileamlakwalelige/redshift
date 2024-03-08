@@ -1,7 +1,7 @@
 import React from "react";
-import test1 from "../../assets/test1.png";
-import test2 from "../../assets/test2.png";
-import test3 from "../../assets/test3.png";
+import Testimony1 from "../Reusable/testimony/Testimony1";
+import Testimony from "../Reusable/testimony/Testimony";
+import Testimony2 from "../Reusable/testimony/Testimony2";
 
 const HomeTestimony = () => {
   return (
@@ -10,16 +10,13 @@ const HomeTestimony = () => {
         <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[30px] md:text-[35px] lg:text-[40px]">
           TESTIMONY
         </p>
-        <span class="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[222px]  bg-primary"></span>
+        <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[222px]  bg-primary"></span>
       </div>
-      <div>
-        <div>
-          <div>
-            <img src={test1} alt="" />
-            <p className="red "></p>
-          </div>
-          <div></div>
-          <div></div>
+      <div className="flex justify-center items-center px-2 sm:px-4 md:px-8 lg:px-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-10 lg:gap-20 xl:gap-32 mt-10">
+          <Testimony1 />
+          <Testimony2 />
+          <Testimony />
         </div>
       </div>
     </div>

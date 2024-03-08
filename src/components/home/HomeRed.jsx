@@ -7,7 +7,7 @@ const HomeRed = () => {
         <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[30px] md:text-[35px] lg:text-[40px]">
           REDSHIFT
         </p>
-        <span class="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[152px]  bg-primary"></span>
+        <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[152px]  bg-primary"></span>
       </div>
       <div className="flex  justify-center items-center p-10">
         <div className="flex flex-wrap lg:flex-nowrap px-2 sm:px-4 justify-center items-center gap-10">
@@ -28,7 +28,7 @@ const HomeRed = () => {
             <iframe
               src="https://www.youtube.com/embed/2yBk1giIfqE"
               title="Parallax Scrolling Effect | HTML CSS &amp; JavaScript"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
               className="w-screen lg:w-[600px] h-[450px] rounded-3xl"
