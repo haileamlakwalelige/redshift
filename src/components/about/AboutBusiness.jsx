@@ -1,6 +1,7 @@
 import React from "react";
 import business from "../../assets/business.png";
 
+
 const AboutBusiness = () => {
   return (
     <div className="px-2 sm:px-6 md:px-12 lg:px-20 mt-5">
