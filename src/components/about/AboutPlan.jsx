@@ -12,7 +12,7 @@ const AboutPlan = () => {
         <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[222px]  bg-primary"></span>
       </div>
       <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center lg:min-h-[70vh]">
+        <div className="grid grid-cols-1 lg:grid-cols-3 justify-center items-center lg:min-h-[70vh]">
           <div className="col-span-1 lg:col-span-2">
             <img src={plan1} alt="" />
           </div>
