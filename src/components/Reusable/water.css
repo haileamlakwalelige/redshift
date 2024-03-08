@@ -1,0 +1,94 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    background: #002638;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background: url('/src/assets/serbg.png'); */
+}
+
+.all {
+    background: url('/src/assets/serbg.png');
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.water {
+    /* width: 500px; */
+    /* height: 500px; */
+    /* background-color: #35b3e7; */
+    /* border-radius: 0%; */
+    /* position: relative; */
+    /* box-shadow: inset 0 0 20px 0 rgba(0,0,0,.8), 0 0 20px 0 rgba(0,0,0,.3); */
+    /* overflow: hidden; */
+    /* @apply border-[1px] shadow-xl; */
+
+}
+
+.water:hover {
+    width: 500px;
+    height: 500px;
+    background-color: #35b3e7;
+    border-radius: 0%;
+    position: relative;
+    box-shadow: inset 0 0 20px 0 rgba(0, 0, 0, .8), 0 0 20px 0 rgba(0, 0, 0, .3);
+    overflow: hidden;
+}
+
+.water:before,
+.water:after {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: 50%;
+    background: #fff;
+}
+
+.water:before {
+    border-radius: 45%;
+    background: #fff;
+    animation: wave 5s linear infinite;
+}
+
+.water:after {
+    border-radius: 35%;
+    background: rgba(255, 255, 255, .3);
+    animation: wave 5s linear infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: translate(-50%, -50%) rotate(0);
+        top: -30%;
+    }
+
+    50% {
+        top: -50%;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+        top: -30%;
+    }
+}

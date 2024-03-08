@@ -31,9 +31,8 @@ function Scroll() {
       <div className="flex-col lg:flex-row h-70vh gap-4 rounded-lg p-4 flex ">
         <div className="lg:h-[90vh] gap-4 carousel carousel-center lg:carousel-vertical rounded-box">
           {images.map((image, index) => (
-            <div className="carousel-item">
+            <div className="carousel-item" key={index}>
               <img
-                key={index}
                 src={image.src}
                 alt={`Image ${index + 1}`}
                 onClick={() => handleImageClick(image.src)}
