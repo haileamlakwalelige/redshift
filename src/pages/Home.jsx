@@ -8,6 +8,8 @@ import Scroll from "../components/Reusable/Scroll";
 import Button from "../components/Reusable/Button";
 import Button2 from "../components/Reusable/Button2";
 import HomeTestimony from "../components/home/HomeTestimony";
+import HomePartners from "../components/home/HomePartners";
+import FAQ from "../components/home/FAQ";
 
 const Home = () => {
   return (
@@ -18,9 +20,11 @@ const Home = () => {
       <HomeService />
       <HomeProducts />
       <Scroll />
-      <Button />
+      {/* <Button /> */}
       {/* <Button2 /> */}
       <HomeTestimony />
+      <HomePartners />
+      <FAQ />
     </div>
   );
 };
