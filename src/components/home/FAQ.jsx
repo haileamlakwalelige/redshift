@@ -9,7 +9,7 @@ const FAQ = () => {
         <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[30px] md:text-[35px] lg:text-[40px]">
           FAQ
         </p>
-        <span class="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-10 min-w-[80px]  bg-primary"></span>
+        <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-10 min-w-[80px]  bg-primary"></span>
       </div>
       <div className="flex justify-center items-center px-2 sm:px-4 md:px-8 lg:px-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center flex-wrap">
