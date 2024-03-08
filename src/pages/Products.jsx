@@ -7,7 +7,7 @@ const Products = () => {
   return (
     <div className="my-32">
       <ProductIntro />
-      <div className="mt-44">
+      <div className="lg:mt-44">
         <Scroll />
       </div>
       <ProductThree />

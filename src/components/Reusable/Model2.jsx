@@ -11,7 +11,7 @@ const Model2 = () => {
         <ul className="p-3 flex flex-col gap-2">
           <li>
             <div className="flex gap-2">
-              <img src={dot} alt="" className="w-[12px] h-[12px] mt-3" />
+              <img src={dot} alt="" className="lg:w-[12px] lg:h-[12px] w-[5px] h-[5px] mt-3" />
               <p className="text-secondary text-[16px] md:text-[20px] lg:text-[24px]">
                 Capacity: Up to 5 persons
               </p>
@@ -19,7 +19,7 @@ const Model2 = () => {
           </li>
           <li>
             <div className="flex gap-2">
-              <img src={dot} alt="" className="w-[12px] h-[12px] mt-3" />
+              <img src={dot} alt="" className="lg:w-[12px] lg:h-[12px] w-[5px] h-[5px] mt-3" />
               <p className="text-secondary text-[16px] md:text-[20px] lg:text-[24px]">
                 Fuel Options: Electric and Gasoline{" "}
               </p>
@@ -28,7 +28,7 @@ const Model2 = () => {
           <li>
             <div className="flex flex-col gap-2">
               <div className="flex gap-2">
-                <img src={dot} alt="" className="w-[12px] h-[12px] mt-3" />
+                <img src={dot} alt="" className="lg:w-[12px] lg:h-[12px] w-[5px] h-[5px] mt-3" />
                 <p className="text-secondary text-[16px] md:text-[20px] lg:text-[24px]">
                   Features:
                 </p>
@@ -40,7 +40,7 @@ const Model2 = () => {
                       <img
                         src={dot}
                         alt=""
-                        className="w-[12px] h-[12px] mt-3"
+                        className="lg:w-[12px] lg:h-[12px] w-[5px] h-[5px] mt-3"
                       />
                       <p className="text-secondary font-light text-[16px] md:text-[20px] lg:text-[24px]">
                         Digital dashboard and screen{" "}
@@ -52,7 +52,7 @@ const Model2 = () => {
                       <img
                         src={dot}
                         alt=""
-                        className="w-[12px] h-[12px] mt-3"
+                        className="lg:w-[12px] lg:h-[12px] w-[5px] h-[5px] mt-3"
                       />
                       <p className="text-secondary font-light text-[16px] md:text-[20px] lg:text-[24px]">
                         Full car body with a sleek appearance
@@ -66,7 +66,7 @@ const Model2 = () => {
                       <img
                         src={dot}
                         alt=""
-                        className="w-[12px] h-[12px] mt-3"
+                        className="lg:w-[12px] lg:h-[12px] w-[5px] h-[5px] mt-3"
                       />
                       <p className="text-secondary font-light text-[16px] md:text-[20px] lg:text-[24px]">
                         All-in-one central console
@@ -79,7 +79,7 @@ const Model2 = () => {
                       <img
                         src={dot}
                         alt=""
-                        className="w-[12px] h-[12px] mt-3"
+                        className="lg:w-[12px] lg:h-[12px] w-[5px] h-[5px] mt-3"
                       />
                       <p className="text-secondary font-light text-[16px] md:text-[20px] lg:text-[24px]">
                         Luxury instrument panel{" "}
@@ -93,7 +93,7 @@ const Model2 = () => {
                       <img
                         src={dot}
                         alt=""
-                        className="w-[12px] h-[12px] mt-3"
+                        className="lg:w-[12px] lg:h-[12px] w-[5px] h-[5px] mt-3"
                       />
                       <p className="text-secondary font-light text-[16px] md:text-[20px] lg:text-[24px]">
                         Reversing image integrated into the vehicle{" "}
@@ -107,7 +107,7 @@ const Model2 = () => {
                       <img
                         src={dot}
                         alt=""
-                        className="w-[12px] h-[12px] mt-3"
+                        className="lg:w-[12px] lg:h-[12px] w-[5px] h-[5px] mt-3"
                       />
                       <p className="text-secondary font-light text-[16px] md:text-[20px] lg:text-[24px]">
                         Anti-flame retardant interior for safety{" "}
@@ -121,7 +121,7 @@ const Model2 = () => {
                       <img
                         src={dot}
                         alt=""
-                        className="w-[12px] h-[12px] mt-3"
+                        className="lg:w-[12px] lg:h-[12px] w-[5px] h-[5px] mt-3"
                       />
                       <p className="text-secondary font-light text-[16px] md:text-[20px] lg:text-[24px]">
                         High-grade leather seats{" "}
@@ -135,7 +135,7 @@ const Model2 = () => {
                       <img
                         src={dot}
                         alt=""
-                        className="w-[12px] h-[12px] mt-3"
+                        className="lg:w-[12px] lg:h-[12px] w-[5px] h-[5px] mt-3"
                       />
                       <p className="text-secondary text-start font-light text-[16px] md:text-[20px] lg:text-[24px]">
                         Additional features: Warm wind blower, electric fan,
