@@ -17,12 +17,12 @@ const Contact3 = () => {
           className="absolute flex -mt-32 lg:-mt-44 w-[102px] h-[110px] text-center"
         />
         <p className="text-primary font-bold text-[16px] md:text-[20px] lg:text-[24px] py-2">
-          Tik Tok
+          Twitter
         </p>
         <p className="text-black text-[14px] text-center">
-          Hop on the trend of green innovation! Follow Redshift on TikTok for
-          electrifying content on our cutting-edge electric and hybrid tricycle
-          models. Let's ride the wave of change together!
+          Revolutionize your feed! Follow Redshift on Twitter for real-time
+          updates, industry insights, and glimpses into the future of electric
+          and hybrid vehicles. Tweet with us using #RedshiftRevolution.
         </p>
         <p className="text-primary text-[16px] font-bold md:text-[20px] lg:text-[24px] cav leading-tight">
           J o i n...
