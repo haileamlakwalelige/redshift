@@ -1,6 +1,7 @@
 import React from "react";
 import vis from "../../assets/vis.png";
 import mis from "../../assets/mis.png";
+import "./style.css";
 
 const HomeAbout = () => {
   return (
@@ -29,8 +30,16 @@ const HomeAbout = () => {
                 footprint, and enhanced economic growth.
               </p>
             </div>
-            <div>
-              <img src={vis} alt="" />
+            <div class="image">
+              <div id="zoom-In">
+                <figure>
+                  <img
+                    src={vis}
+                    alt=""
+                    
+                  />
+                </figure>
+              </div>
             </div>
           </div>
 
@@ -47,8 +56,16 @@ const HomeAbout = () => {
                 funding Model.
               </p>
             </div>
-            <div>
-              <img src={mis} alt="" />
+            <div class="image">
+              <div id="zoom-In">
+                <figure>
+                  <img
+                    src={mis}
+                    alt=""
+                    
+                  />
+                </figure>
+              </div>
             </div>
           </div>
         </div>

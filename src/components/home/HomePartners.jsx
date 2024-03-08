@@ -7,7 +7,7 @@ const HomePartners = () => {
         <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[30px] md:text-[35px] lg:text-[40px]">
           PARTNERS
         </p>
-        <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-20 min-w-[222px]  bg-primary"></span>
+        <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-10 min-w-[222px]  bg-primary"></span>
       </div>
       <div className="mt-3">
         <div className="carousel gap-10 lg:gap-16 mx-2 sm:mx-4 md:mx-8 lg:mx-16">
