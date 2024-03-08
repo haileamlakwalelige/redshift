@@ -6,6 +6,8 @@ export default {
       colors: {
         primary: "#E31C1C",
         secondary: "#32475C",
+        faq: "#FBE1E1",
+        text: "#00353B",
       },
     },
   },
