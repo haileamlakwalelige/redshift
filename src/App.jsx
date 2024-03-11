@@ -11,6 +11,7 @@ import Navbar from "./components/layout/Navbar";
 import Copy from "./components/layout/Copy";
 import Footer from "./components/layout/Footer";
 import ServiceDetail from "./pages/ServiceDetail";
+import ProductFour from "./pages/ProductFour";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Service />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/producttwo" element={<ProductFour />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/service-detail" element={<ServiceDetail />} />
