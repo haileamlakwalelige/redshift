@@ -7,11 +7,11 @@ const HomeAbout = () => {
   return (
     <div className="mt-6">
       <div className="flex justify-start items-start ml-2 py-6">
-        <p className="  items-end font-extrabold vie text-secondary text-[30px] md:text-[35px] lg:text-[40px] pr-3">
+        <p className="  items-end font-extrabold vie text-secondary text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] pr-3">
           ABOUT
         </p>
         <div>
-          <p className="relative  items-end max-w-[100px] font-extrabold vie text-secondary text-[30px] md:text-[35px] lg:text-[40px]">
+          <p className="relative  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
             REDSHIFT
           </p>
           <span className="absolute h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[152px]  bg-primary"></span>
@@ -33,11 +33,7 @@ const HomeAbout = () => {
             <div class="image">
               <div id="zoom-In">
                 <figure>
-                  <img
-                    src={vis}
-                    alt=""
-                    
-                  />
+                  <img src={vis} alt="" />
                 </figure>
               </div>
             </div>
@@ -59,11 +55,7 @@ const HomeAbout = () => {
             <div class="image">
               <div id="zoom-In">
                 <figure>
-                  <img
-                    src={mis}
-                    alt=""
-                    
-                  />
+                  <img src={mis} alt="" />
                 </figure>
               </div>
             </div>
