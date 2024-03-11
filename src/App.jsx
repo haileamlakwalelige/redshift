@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Navbar from "./components/layout/Navbar";
 import Copy from "./components/layout/Copy";
 import Footer from "./components/layout/Footer";
+import ServiceDetail from "./pages/ServiceDetail";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/products" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/service-detail" element={<ServiceDetail />} />
         <Route path="*" element={<Four0Four />} />
       </Routes>
       <Footer />

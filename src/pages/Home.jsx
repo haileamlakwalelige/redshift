@@ -10,10 +10,11 @@ import Button2 from "../components/Reusable/Button2";
 import HomeTestimony from "../components/home/HomeTestimony";
 import HomePartners from "../components/home/HomePartners";
 import FAQ from "../components/home/FAQ";
+import backgroundImage from "../assets/homeback.png";
 
 const Home = () => {
   return (
-    <div className="mt-32 overflow-x-hidden">
+    <div className="mt-32 overflow-x-hidden w-full h-full bg-white">
       <HomeIntro />
       <HomeRed />
       <HomeAbout />

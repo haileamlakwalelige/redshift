@@ -5,7 +5,7 @@ const Testimony1 = () => {
   return (
     <div>
       {" "}
-      <div className="flex justify-center items-center flex-col lg:-mt-80">
+      <div className="flex justify-center items-center flex-col lg:-mt-40">
         <img src={test1} alt="" className="pb-2 h-[200px] w-[200px]" />
         <p className="text-primary text-[16px] font-bold">Danait K</p>
         <p className="text-[14px] font-bold text-[#c03b3b] pb-2">

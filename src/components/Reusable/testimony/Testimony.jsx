@@ -5,7 +5,7 @@ import test3 from "../../../assets/test3.png";
 const Testimony = () => {
   return (
     <div>
-      <div className="flex justify-center items-center flex-col lg:-mt-80">
+      <div className="flex justify-center items-center flex-col lg:-mt-40">
         <img
           src={test3}
           alt=""

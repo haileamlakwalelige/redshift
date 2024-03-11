@@ -3,13 +3,13 @@ import React from "react";
 const HomeRed = () => {
   return (
     <div>
-      <div className="flex justify-center items-start flex-col ml-2 py-6">
+      <div className="flex justify-center items-start flex-col ml-2 py-3">
         <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[30px] md:text-[35px] lg:text-[40px]">
           REDSHIFT
         </p>
         <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[152px]  bg-primary"></span>
       </div>
-      <div className="flex  justify-center items-center p-10">
+      <div className="flex  justify-center items-center p-4">
         <div className="flex flex-wrap lg:flex-nowrap px-2 sm:px-4 justify-center items-center gap-10">
           <div>
             <p className="text-primary text-center font-bold text-[24px] md:text-[30px] lg:text-[36px] pb-6">

@@ -42,7 +42,7 @@ const HomeService = () => {
             <img
               src={!isHover1 ? ser1 : car1}
               alt=""
-              className="lg:max-w-[440px] h-[300px] md:h-[360px] lg:w-[440px] lg:h-[365px] rounded-xl object-center transition-opacity duration-1000"
+              className="lg:max-w-[440px] h-[300px] md:h-[360px]  rounded-xl object-center transition-opacity duration-1000"
               onMouseEnter={handleMouseEnter1}
               onMouseLeave={handleMouseLeave1}
             />
@@ -62,7 +62,7 @@ const HomeService = () => {
             <img
               src={!isHover2 ? ser2 : car2}
               alt=""
-              className=" lg:max-w-[440px] h-[300px] md:h-[360px] lg:w-[440px] lg:h-[365px] rounded-xl"
+              className=" lg:max-w-[440px] h-[300px] md:h-[360px]  rounded-xl"
               onMouseEnter={handleMouseEnter2}
               onMouseLeave={handleMouseLeave2}
             />
