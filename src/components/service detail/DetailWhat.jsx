@@ -7,7 +7,7 @@ const DetailWhat = () => {
   return (
     <div className="px-2 sm:px-6 md:px-12 lg:px-20">
       <div className=" flex justify-center items-center flex-col ml-2 py-6">
-        <p className="items-end max-w-full font-extrabold  text-secondary text-center text-[30px] md:text-[35px] lg:text-[40px] px-2">
+        <p className="items-end max-w-full font-extrabold  text-secondary text-center text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] px-2">
           WHAT IS THE DIFFERENCE?
         </p>
         <span className="h-1 -mt-1 lg:-mt-2 min-w-[300px] md:min-w-[400px] lg:min-w-[500px] xl:min-w-[550px] bg-primary"></span>
@@ -15,7 +15,7 @@ const DetailWhat = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-10 xl:gap-32 md:gap-16">
         <div>
           <div className=" flex justify-center items-center flex-col ml-2 py-6">
-            <p className="items-end max-w-[100px] font-extrabold  text-secondary text-center text-[30px] md:text-[35px] lg:text-[40px] px-2">
+            <p className="items-end max-w-[100px] font-extrabold  text-secondary text-center text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] px-2">
               THEM
             </p>
             <span className="h-1 -mt-1 lg:-mt-2 ml-10 min-w-[150px]  bg-primary"></span>
@@ -112,7 +112,7 @@ const DetailWhat = () => {
         </div>
         <div>
           <div className=" flex justify-center items-center flex-col ml-2 py-6">
-            <p className="items-end max-w-[100px] font-extrabold  text-secondary  text-center text-[30px] md:text-[35px] lg:text-[40px] px-2">
+            <p className="items-end max-w-[100px] font-extrabold  text-secondary  text-center text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] px-2">
               US
             </p>
             <span className="h-1 -mt-1 lg:-mt-2  min-w-[70px]  bg-primary"></span>

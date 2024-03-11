@@ -5,13 +5,13 @@ const DetailSecondIntro = () => {
   return (
     <div>
       <div className=" flex justify-center items-center flex-col ml-2 py-6 px-2">
-        <p className="items-end max-w-full font-extrabold  text-secondary text-center text-[30px] md:text-[35px] lg:text-[40px] px-2">
+        <p className="items-end max-w-full font-extrabold  text-secondary text-center text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] px-2">
           OPERATING IN BOTH ELECTRIC AND <br /> GASOLINE MAKES IT UNIQUE IN
           SELLING
         </p>
         <span className="h-1 -mt-1 lg:-mt-2 min-w-[300px] md:min-w-[400px] lg:min-w-[500px] xl:min-w-[550px] bg-primary"></span>
       </div>
-      <div className="flex justify-center items-center mt-6">
+      <div className="flex md:flex-row flex-col justify-center items-center mt-6">
         <div className="md:w-1/2 lg:w-3/5 pl-2">
           <img src={sec} alt="" />
         </div>

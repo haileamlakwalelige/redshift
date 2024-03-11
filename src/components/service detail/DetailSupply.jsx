@@ -5,10 +5,10 @@ const DetailSupply = () => {
     <div className="px-2 sm:px-6 md:px-12 lg:px-20">
       <div>
         <div className="flex justify-center items-start flex-col ml-2 py-3 px-3 lg:px-6 xl:px-8">
-          <p className="  items-end  font-extrabold vie text-secondary text-[30px] md:text-[35px] lg:text-[40px]">
+          <p className="  items-end  font-extrabold vie text-secondary text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
             OUR SUPPLY CAPACITY
           </p>
-          <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[152px]  bg-primary"></span>
+          <span className="h-1  -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[152px]  bg-primary"></span>
         </div>
         <p className="text-secondary text-[16px] text-start px-2 md:pr-4 lg:pr-8 lg:text-[18px]">
           The production capacity of our parent company is 0.2 million sets per
