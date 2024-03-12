@@ -30,7 +30,7 @@ const HomeAbout = () => {
                 footprint, and enhanced economic growth.
               </p>
             </div>
-            <div class="image">
+            <div className="image">
               <div id="zoom-In">
                 <figure>
                   <img src={vis} alt="" />
@@ -52,7 +52,7 @@ const HomeAbout = () => {
                 funding Model.
               </p>
             </div>
-            <div class="image">
+            <div className="image">
               <div id="zoom-In">
                 <figure>
                   <img src={mis} alt="" />

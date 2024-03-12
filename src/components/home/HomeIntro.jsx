@@ -12,7 +12,7 @@ const HomeIntro = () => {
         backgroundPosition: "center",
         backgroundColor: "rgba(0, 0, 0, 0.5)",
       }}
-      className="bg-[#F6FDFE] relative lg:bg-[url(${contact})] lg:bg-cover flex justify-center items-center lg:bg-center min-h-[81vh]  lg:py-0 "
+      className="bg-[#F6FDFE] relative lg:bg-[url(${contact})] lg:bg-cover flex justify-center items-center lg:bg-center min-h-screen  lg:py-0 "
     >
       <div className="grid grid-cols-1 lg:grid-cols-3 justify-center items-center px-2 sm:px-4 md:px-8 lg:px-16">
         <div className="lg:col-span-2">
