@@ -40,7 +40,7 @@
   /* Set the color of the border */
   transition: width 0.5s ease, right 0.5s ease;
   /* Add transitions for width and left properties */
-  @apply bg-primary;
+  @apply bg-sub;
 }
 
 .hove:hover::after {
@@ -220,4 +220,23 @@
   .button {
     display: none;
   }
+    .hove::after {
+      content: '';
+      /* Add a pseudo-element */
+      position: absolute;
+      /* Position the pseudo-element absolutely */
+      bottom: 0;
+      /* Position it at the bottom */
+      right: 100%;
+      /* Initially position it outside the element */
+      width: 0;
+      /* Set initial width to 0 */
+      height: 3px;
+      /* Set the height of the border */
+      /* background-color: #000; */
+      /* Set the color of the border */
+      transition: width 0.5s ease, right 0.5s ease;
+      /* Add transitions for width and left properties */
+      @apply bg-primary;
+    }
 }
