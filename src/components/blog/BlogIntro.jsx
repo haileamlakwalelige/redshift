@@ -18,13 +18,13 @@ const BlogIntro = () => {
       onMouseLeave={handleMouseLeave}
       className="min-h-[83vh] blog"
     >
-      <div className="min-h-[70vh] flex flex-col items-start justify-center">
+      <div className="min-h-screen flex flex-col items-start justify-center">
         <div className="md:w-full lg:w-2/4 ">
-          <div className="bg mx-2 sm:mx-4 md:mx-6 lg:mx-10 px-4 py-4 ">
+          <div className="bg px-2 sm:px-4 md:px-6 lg:px-10 py-4 ">
             <p className="text-white text-start font-bold text-[26px] md:text-[29px] lg:text-[32px] pt-4 pb-2 inter">
               Blog
             </p>
-            <p className="text-white text-start font-normal pb-2">
+            <p className="text-white text-start font-normal pb-2 mt-10">
               Explore our diverse collection of blogs where we delve into
               various topics related to our mission, vision, and the industries
               we operate in. Red Shift is not just a manufacturer; we are a
