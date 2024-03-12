@@ -14,7 +14,7 @@ import backgroundImage from "../assets/homeback.png";
 
 const Home = () => {
   return (
-    <div className="mt-32 overflow-x-hidden w-full h-full bg-white">
+    <div className=" overflow-x-hidden w-full h-full bg-white">
       <HomeIntro />
       <HomeRed />
       <HomeAbout />

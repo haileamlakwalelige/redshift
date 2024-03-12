@@ -5,7 +5,7 @@ import ProductThree from "../components/product/ProductThree";
 
 const Products = () => {
   return (
-    <div className="my-32">
+    <div >
       <ProductIntro />
       <div className="lg:mt-44">
         <Scroll />

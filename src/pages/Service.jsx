@@ -1,10 +1,12 @@
 import React from "react";
-import ServiceCards from "../components/service/ServiceCards";
+import ServiceIntro from "../components/service/ServiceIntro";
+import ServiceCard from "../components/service/ServiceCard";
 
 const Service = () => {
   return (
-    <div className="mt-32">
-      <ServiceCards />
+    <div>
+      <ServiceIntro />
+      <ServiceCard />
     </div>
   );
 };
