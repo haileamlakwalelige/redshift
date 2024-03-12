@@ -1,9 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
+import Wave from "react-wavify";
 
 const BlogIntro = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  }; // Added closing curly brace here
+
   return (
-    <div className="min-h-[83vh] blog">
-      <div className="min-h-[70vh] flex items-center">
+    <div
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      className="min-h-[83vh] blog"
+    >
+      <div className="min-h-[70vh] flex flex-col items-start justify-center">
         <div className="md:w-full lg:w-2/4 ">
           <div className="bg mx-2 sm:mx-4 md:mx-6 lg:mx-10 px-4 py-4 ">
             <p className="text-white text-start font-bold text-[26px] md:text-[29px] lg:text-[32px] pt-4 pb-2 inter">
@@ -17,6 +32,20 @@ const BlogIntro = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      <div>
+        <Wave
+          fill="#45C3FE"
+          paused={isHovered ? false : true}
+          options={{
+            height: 40,
+            amplitude: 40,
+            speed: 0.3,
+            points: 2,
+          }}
+          className="bottom-0 -mb-2 z-10 -mt-8 rounded-b-2xl relative"
+        />
       </div>
     </div>
   );
