@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: "Be Vietnam Pro", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 .cav {
     font-family: "Caveat", cursive;
@@ -23,8 +23,9 @@ body {
 
 p,
 h1,
-li {
-    font-family: "Be Vietnam Pro", sans-serif;
+li,
+button {
+    font-family: "Inter", sans-serif;
 
 }
 .inter {
@@ -39,13 +40,22 @@ li {
     background-position: center;
     background-repeat: no-repeat;
 }
+.service {
+    background: url('./assets/servicebg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .bg {
     background-color: rgba(0, 0, 0, 0.5);
     background: url('./assets/introbg.png');
     /* Adjust the last value (0.5) to change opacity */
 }
-/* .section {
-    background: url('./assets/section.png');
-
-} */
+.footer {
+    background: url('./assets/footers.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100vw; */
+}
