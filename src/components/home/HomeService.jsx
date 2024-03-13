@@ -24,7 +24,7 @@ const HomeService = () => {
   };
 
   return (
-    <div className="mt-10 overflow-x-hidden">
+    <div className="mt-10 overflow-x-hidden bg-[#F8F9FA]">
       <div className="flex justify-start items-start ml-2 py-6">
         <div>
           <p className="relative  items-end  pb-3 font-extrabold vie text-secondary text-[25px] md:text-[30px] lg:text-[32px]">
@@ -35,7 +35,7 @@ const HomeService = () => {
       </div>
       <div className="flex justify-center items-center">
         <div className="flex justify-center flex-wrap lg:flex-nowrap items-center gap-6 md:gap-12 lg:gap-20">
-          <div className="max-w-[470px]  p-2 pb-10 shadow-xl">
+          <div className="max-w-[470px]  p-2 pb-10 ">
             <img
               src={!isHover1 ? ser1 : car1}
               alt=""
@@ -43,7 +43,7 @@ const HomeService = () => {
               onMouseEnter={handleMouseEnter1}
               onMouseLeave={handleMouseLeave1}
             />
-            <p className="font-bold text-primary text-[20px] md:text-[22px] lg:text-[24px] text-center py-6">
+            <p className="font-bold text-primary text-[20px] md:text-[22px] lg:text-[24px] text-start py-6 px-4">
               Tricycle Manufacturing
             </p>
             <p className="text-secondary text-[16px] text-start px-2">
@@ -54,9 +54,9 @@ const HomeService = () => {
             </p>
           </div>
 
-          <div className="border-r-[1px] rounded-xl lg:flex hidden border-gray-500 min-h-[500px]"></div>
+          <div className="border-r-[1px] lg:flex hidden border-gray-500 min-h-[300px]"></div>
           {/* Service two */}
-          <div className="max-w-[470px] border-[1px] rounded-xl border-gray-100 p-2 pb-10 shadow-xl">
+          <div className="max-w-[470px] rounded-xl p-2 pb-10 ">
             <img
               src={!isHover2 ? ser2 : car2}
               alt=""
@@ -64,7 +64,7 @@ const HomeService = () => {
               onMouseEnter={handleMouseEnter2}
               onMouseLeave={handleMouseLeave2}
             />
-            <p className="font-bold text-primary text-[20px] md:text-[22px] lg:text-[24px] text-center py-6">
+            <p className="font-bold text-primary text-[20px] md:text-[22px] lg:text-[24px] text-start py-6 px-4">
               Express Cars for Sustainable Travel
             </p>
             <p className="text-secondary text-[16px] text-start px-2">

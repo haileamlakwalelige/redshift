@@ -3,7 +3,7 @@ import bg from '../../assets/redbgs.png';
 
 const HomeRed = () => {
   return (
-    <div style={{ backgroundImage: `url(${bg})` }} className="bg-no-repeat bg-cover bg-center pt-10">
+    <div style={{ backgroundImage: `url(${bg})` }} className="bg-no-repeat bg-cover bg-center pt-10 px-4 ">
       <div className="flex justify-center items-start flex-col ml-2 py-3">
         <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] md:text-[30px] lg:text-[32px]">
           REDSHIFT
@@ -16,7 +16,7 @@ const HomeRed = () => {
             <p className="text-primary text-start font-bold text-[24px] lg:text-[28px] pb-6">
               Redshift Revolution
             </p>
-            <p className="text-secondary text-start text-16px] md:text-[20px]">
+            <p className="text-secondary text-start text-16px] md:text-[20px] px-3">
               Redshift is a forward-thinking manufacturer of electric and hybrid
               vehicles, focused on introducing eco-friendly transportation
               alternatives to Ethiopia. Our team of passionate engineers,
@@ -31,7 +31,7 @@ const HomeRed = () => {
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="w-screen lg:w-[600px] h-[450px] rounded-3xl"
+              className="w-screen lg:w-[600px] h-[450px] rounded-3xl px-3"
             ></iframe>
           </div>
         </div>

@@ -1,10 +1,11 @@
 import React from "react";
 import faq from "../../assets/faq.png";
+import bg from "../../assets/faqback.png";
 import { GoDotFill } from "react-icons/go";
 
 const FAQ = () => {
   return (
-    <div>
+    <div style={{ backgroundImage: `url(${bg})` }}>
       <div className="flex justify-center items-start flex-col ml-2 py-6">
         <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
           FAQ
