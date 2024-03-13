@@ -4,7 +4,7 @@ import "./Navbar.css";
 import { FaTimes, FaBars } from "react-icons/fa";
 import logo from "../../assets/footerlogo.png";
 
-const Navbar = () => {
+const Navbar1 = () => {
   const [click, setClick] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -135,4 +135,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar1;
