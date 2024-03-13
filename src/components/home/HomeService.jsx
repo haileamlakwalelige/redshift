@@ -26,23 +26,20 @@ const HomeService = () => {
   return (
     <div className="mt-10 overflow-x-hidden">
       <div className="flex justify-start items-start ml-2 py-6">
-        <p className="  items-end font-extrabold vie text-secondary text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] pr-3">
-          OUR
-        </p>
         <div>
-          <p className="relative  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
-            SERVICE
+          <p className="relative  items-end  pb-3 font-extrabold vie text-secondary text-[25px] md:text-[30px] lg:text-[32px]">
+            WHAT WE DO
           </p>
           <span className="absolute h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[152px]  bg-primary"></span>
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12 lg:gap-20">
-          <div className="max-w-[470px] border-[1px] rounded-xl border-gray-100 p-2 pb-10 shadow-xl">
+        <div className="flex justify-center flex-wrap lg:flex-nowrap items-center gap-6 md:gap-12 lg:gap-20">
+          <div className="max-w-[470px]  p-2 pb-10 shadow-xl">
             <img
               src={!isHover1 ? ser1 : car1}
               alt=""
-              className="lg:max-w-[440px] h-[300px] md:h-[360px]  rounded-xl object-center transition-opacity duration-1000"
+              className="lg:max-w-[440px] h-[280px]  rounded-xl object-center transition-opacity duration-1000"
               onMouseEnter={handleMouseEnter1}
               onMouseLeave={handleMouseLeave1}
             />
@@ -57,12 +54,13 @@ const HomeService = () => {
             </p>
           </div>
 
+          <div className="border-r-[1px] rounded-xl lg:flex hidden border-gray-500 min-h-[500px]"></div>
           {/* Service two */}
           <div className="max-w-[470px] border-[1px] rounded-xl border-gray-100 p-2 pb-10 shadow-xl">
             <img
               src={!isHover2 ? ser2 : car2}
               alt=""
-              className=" lg:max-w-[440px] h-[300px] md:h-[360px]  rounded-xl"
+              className=" lg:max-w-[440px] h-[280px]  rounded-xl"
               onMouseEnter={handleMouseEnter2}
               onMouseLeave={handleMouseLeave2}
             />

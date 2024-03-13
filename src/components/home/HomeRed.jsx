@@ -1,10 +1,11 @@
 import React from "react";
+import bg from '../../assets/redbgs.png';
 
 const HomeRed = () => {
   return (
-    <div>
+    <div style={{ backgroundImage: `url(${bg})` }} className="bg-no-repeat bg-cover bg-center pt-10">
       <div className="flex justify-center items-start flex-col ml-2 py-3">
-        <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
+        <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] md:text-[30px] lg:text-[32px]">
           REDSHIFT
         </p>
         <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[152px]  bg-primary"></span>
@@ -12,16 +13,15 @@ const HomeRed = () => {
       <div className="flex  justify-center items-center p-4">
         <div className="flex flex-wrap lg:flex-nowrap px-2 sm:px-4 justify-center items-center gap-10">
           <div>
-            <p className="text-primary text-center font-bold text-[24px] md:text-[30px] lg:text-[36px] pb-6">
+            <p className="text-primary text-start font-bold text-[24px] lg:text-[28px] pb-6">
               Redshift Revolution
             </p>
-            <p className="text-secondary text-center text-16px] md:text-[20px] lg:text-[24px]">
-              Embark on a visual journey with Redshift, unveiling our commitment
-              to transforming transportation. Explore our state-of-the-art
-              manufacturing, witness the elegance of our tricycle models, and
-              hear from satisfied customers. With a focus on sustainability and
-              innovation, Redshift is driving Ethiopia's green mobility
-              revolution. Choose Redshift for a transformative ride.
+            <p className="text-secondary text-start text-16px] md:text-[20px]">
+              Redshift is a forward-thinking manufacturer of electric and hybrid
+              vehicles, focused on introducing eco-friendly transportation
+              alternatives to Ethiopia. Our team of passionate engineers,
+              sustainability experts, and visionaries are committed to shaping a
+              greener future.
             </p>
           </div>
           <div>
