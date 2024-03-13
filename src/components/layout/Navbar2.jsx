@@ -46,7 +46,7 @@ const Navbar2 = () => {
           <img
             src={logo}
             alt=""
-            className="h-20 md:mt-3 -mt-10 lg:mt-0 w-24 ml-6 md:ml-20  lg:mr-20 navbar-logo"
+            className="h-20 md:-mt-4 -mt-10 lg:mt-0 w-24 ml-6 md:ml-20  lg:mr-20 navbar-logo"
           />
         </Link>
         <div
@@ -65,7 +65,7 @@ const Navbar2 = () => {
           <li className="nav-item">
             <Link
               to="/"
-              className={`py-2 px-3 md:p-0   lg:text-white  flex justify-center items-center offer lg:text-xl md:bg-transparent text-center hove`}
+              className={`py-2 px-3 md:p-0 lg:hidden xl:flex  lg:text-white  flex justify-center items-center offer lg:text-xl md:bg-transparent text-center hove`}
               onClick={closeMobileMenu}
             >
               Home
