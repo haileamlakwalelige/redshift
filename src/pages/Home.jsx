@@ -5,24 +5,22 @@ import HomeAbout from "../components/home/HomeAbout";
 import HomeService from "../components/home/HomeService";
 import HomeProducts from "../components/home/HomeProducts";
 import Scroll from "../components/Reusable/Scroll";
-import Button from "../components/Reusable/Button";
-import Button2 from "../components/Reusable/Button2";
+
 import HomeTestimony from "../components/home/HomeTestimony";
 import HomePartners from "../components/home/HomePartners";
 import FAQ from "../components/home/FAQ";
-import backgroundImage from "../assets/homeback.png";
+
+import Slider from "../components/Reusable/sliding/Slider";
 
 const Home = () => {
   return (
     <div className=" overflow-x-hidden w-full h-full bg-white">
-      <HomeIntro />
+      <Slider />
       <HomeRed />
       <HomeAbout />
       <HomeService />
       <HomeProducts />
       <Scroll />
-      {/* <Button /> */}
-      {/* <Button2 /> */}
       <HomeTestimony />
       <HomePartners />
       <FAQ />

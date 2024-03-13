@@ -10,7 +10,7 @@ import AboutPartners from "../components/about/AboutPartners";
 
 const About = () => {
   return (
-    <div className="">
+    <div className="mt-32">
       <AboutWhat />
       <AboutMission />
       <AboutVision />
