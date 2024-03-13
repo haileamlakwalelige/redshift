@@ -11,6 +11,7 @@ import HomePartners from "../components/home/HomePartners";
 import FAQ from "../components/home/FAQ";
 
 import Slider from "../components/Reusable/sliding/Slider";
+import HomeJoin from "../components/home/HomeJoin";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <Scroll />
       <HomeTestimony />
       <HomePartners />
+      <HomeJoin />
       <FAQ />
     </div>
   );
