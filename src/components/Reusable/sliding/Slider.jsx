@@ -4,7 +4,6 @@ import img1 from "../../../assets/1.png";
 import img2 from "../../../assets/2.png";
 import img3 from "../../../assets/3.png";
 import img4 from "../../../assets/4.png";
-// import img5 from "../../../assets/img/5.jpg";
 
 const Slider = () => {
   const [active, setActive] = useState(0);
@@ -47,7 +46,7 @@ const Slider = () => {
   }, [active]);
 
   return (
-    <div className="slider w-screen relative">
+    <div className="slider min-h-screen w-screen relative">
       <div className="list">
         {items.map((item, index) => (
           <div
@@ -57,11 +56,10 @@ const Slider = () => {
           >
             <img src={item} alt="" className="w-full h-full object-cover" />
             <div
-              className="absolute inset-0 flex flex-col justify-center px-2 sm:px-4 text-start pt-72 lg:px-10 items-start text-white z-20"
+              className="absolute inset-0 flex flex-col justify-center px-2 sm:px-4 text-start pt-72 lg:px-10 items-start text-white z-20 lg:mt-[20px]"
               style={{
                 background:
-                  "linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))",
-                marginTop: "20px",
+                  "linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))"
               }}
             >
               <p className="text-[26px] md:text-[30px] lg:text-[36px] font-extrabold text-center mb-4">
@@ -78,7 +76,6 @@ const Slider = () => {
           </div>
         ))}
       </div>
-
       <div className="buttons absolute top-4 left-0 right-0 flex justify-between px-4 z-30">
         <button id="prev" onClick={prevSlide}>
           {"<"}
