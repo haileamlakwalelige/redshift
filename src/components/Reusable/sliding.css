@@ -1,0 +1,10 @@
+/* style.css */
+.slider-container {
+    transition: width 0.5s, height 0.5s; /* Add transition for width and height */
+  }
+  
+  .slider-container.expanded {
+    /* Define expanded size */
+    /* Adjust the values as needed */
+  }
+  
