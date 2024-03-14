@@ -8,7 +8,7 @@ const AboutEvolution = () => {
         <div className="flex flex-col lg:flex-row justify-center items-start gap-10 lg:gap-16">
           <div className="h-full w-full lg:w-2/5 mt-10">
             <div className=" flex justify-center items-start flex-col ml-2 py-6">
-              <p className="items-end max-w-full font-extrabold vie text-secondary text-start text-[25px] sm:text-[25px] md:text-[30px] lg:text-[32px]  px-2">
+              <p className="items-end max-w-full font-extrabold vie text-secondary text-start text-[18px] lg:text-[20px]  px-2">
                 EVOLUTION{" "}
               </p>
               <span className="h-1 lg:-mt-2 pl-12 min-w-[120px] ml-10 text-center bg-primary"></span>
@@ -19,7 +19,10 @@ const AboutEvolution = () => {
               multi-faceted company operating at the forefront of innovation.
             </p>
           </div>
-          <div style={{ backgroundImage: `url(${bg})` }} className="col-span-1 lg:col-span-2 w-full  lg:w-3/5 px-4">
+          <div
+            style={{ backgroundImage: `url(${bg})` }}
+            className="col-span-1 lg:col-span-2 w-full  lg:w-3/5 px-4"
+          >
             <div>
               <div className="h-[600px] w-full carousel carousel-vertical rounded-box">
                 <div className="carousel-item justify-center items-center">
