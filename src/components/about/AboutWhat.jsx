@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Wave from "react-wavify";
+import footer from "../../assets/1.png";
 
 const AboutWhat = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -14,9 +15,17 @@ const AboutWhat = () => {
 
   return (
     <div
+      style={{
+        background: `url(${footer})`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundColor: "rgba(0, 0, 0, 0.5)",
+        // width: "100vw" // You can include or exclude this line as needed
+      }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className="min-h-[83vh] about"
+      className="min-h-[83vh]"
     >
       <div className="min-h-[85vh] flex flex-col items-end justify-center">
         <div className="md:w-full lg:w-2/4 ">
