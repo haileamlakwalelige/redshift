@@ -1,23 +1,49 @@
-import React from "react";
+import React, { useState } from "react";
+import Wave from "react-wavify";
 
 const AboutWhat = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  }; // Added closing curly brace here
+
   return (
-    <div className="px-2 sm:px-6 md:px-12 lg:px-20">
-      <div className="flex justify-center items-start flex-col ml-2 py-6">
-        <p className="items-end max-w-full font-extrabold vie text-secondary text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] px-2">
-          WHAT IS RED SHIFT?
-        </p>
-        <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[222px]  bg-primary"></span>
+    <div
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      className="min-h-[83vh] about"
+    >
+      <div className="min-h-[85vh] flex flex-col items-end justify-center">
+        <div className="md:w-full lg:w-2/4 ">
+          <div className="bg px-2 sm:px-4 md:px-6 lg:px-10 py-4 ">
+            <p className="text-white text-start font-bold text-[26px] md:text-[29px] lg:text-[32px] pt-4 pb-2 inter">
+              WHAT IS RED SHIFT?
+            </p>
+            <p className="text-white text-start font-normal pb-2 mt-10">
+              Red Shift is a dynamic company operating at the forefront of
+              innovation in various sectors.
+            </p>
+          </div>
+        </div>
       </div>
+
       <div>
-        <p className="text-secondary text-start font-light text-[16px] md:text-[20px] lg:text-[24px] lg:-mt-4">
-          Red Shift Corp is a dynamic company operating at the forefront of
-          innovation in various sectors. With a diverse portfolio spanning
-          construction, manufacturing, and consultancy, Red Shift brings over
-          seven years of combined expertise to deliver quality and value. We
-          pride ourselves on transforming ideas into tangible realities,
-          contributing to positive change across different industries.
-        </p>
+        <Wave
+          fill="#45C3FE"
+          paused={isHovered ? false : true}
+          options={{
+            height: 40,
+            amplitude: 40,
+            speed: 0.3,
+            points: 2,
+          }}
+          className="bottom-0 -mb-2 z-10 -mt-8 rounded-b-2xl relative"
+        />
       </div>
     </div>
   );
