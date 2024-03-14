@@ -39,11 +39,18 @@ const Navbar1 = () => {
 
   return (
     <div
+     
       className={`fixed w-screen top-0 -mt-2 py-2 z-50 ${
         scrolled ? "bg-primary" : "bg-primary lg:bg-transparent"
       }`}
     >
       <nav
+      //  style={{
+      //   backgroundColor: "rgba(0, 0, 0, 0.3)",
+      // }}
+      style={{
+        backgroundColor: scrolled ? "#002060" : "rgba(0, 0, 0, 0.3)",
+      }}
         className={`navbar py-2 sticky top-0 z-50  ${
           scrolled ? "bg-primary" : "bg-primary lg:bg-transparent"
         }`}
@@ -61,7 +68,10 @@ const Navbar1 = () => {
             className="h-20 md:-mt-4 -mt-6 lg:mt-0 w-24 ml-6 md:ml-20  lg:mr-20 navbar-logo"
           />
         </Link>
-        <div className="menu-icon lg:text-white text-white  mt-3" onClick={handleClick}>
+        <div
+          className="menu-icon lg:text-white text-white  mt-3"
+          onClick={handleClick}
+        >
           {click ? <FaTimes /> : <FaBars />}
         </div>
         <ul
