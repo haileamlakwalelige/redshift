@@ -1,67 +1,80 @@
-import React from "react";
-import view from "../../assets/view.png";
+import React, { useState, useEffect } from "react";
+// import "../home/style.css";
+import img1 from "../../assets/1.png";
+import img2 from "../../assets/2.png";
+import img3 from "../../assets/3.png";
+import img4 from "../../assets/4.png";
 
 const DetailView = () => {
+  const [active, setActive] = useState(0);
+  const [refreshInterval, setRefreshInterval] = useState(null);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActive((prevActive) => (prevActive + 1) % items.length);
+    }, 3000);
+
+    setRefreshInterval(interval);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  const items = [img1, img2, img3, img4];
+
+  const nextSlide = () => {
+    setActive((prevActive) => (prevActive + 1) % items.length);
+  };
+
+  const prevSlide = () => {
+    setActive((prevActive) => (prevActive - 1 + items.length) % items.length);
+  };
+
+  const handleDotClick = (index) => {
+    setActive(index);
+  };
+
+  const reloadSlider = () => {
+    clearInterval(refreshInterval);
+    const interval = setInterval(() => {
+      setActive((prevActive) => (prevActive + 1) % items.length);
+    }, 3000);
+    setRefreshInterval(interval);
+  };
+
+  useEffect(() => {
+    reloadSlider();
+  }, [active]);
+
   return (
-    <div className="px-2 sm:px-4 md:px-8 lg:px-16 xl:px-24 pt-10">
-      <div className="carousel w-full h-[70vh]">
-        <div id="slide1" className="carousel-item relative w-full">
-          <img
-            src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
-            className="w-full"
-          />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide2" className="btn btn-circle">
-              ❯
-            </a>
+    <div className="slider max-h-[70vh] w-screen my-10">
+      <div className="list">
+        {items.map((item, index) => (
+          <div
+            className="item w-screen z-10 "
+            key={index}
+            style={{ display: index === active ? "block" : "none" }}
+          >
+            <img src={item} alt="" className="w-full h-[50vh] object-cover" />
           </div>
-        </div>
-        <div id="slide2" className="carousel-item relative w-full">
-          <img
-            src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
-            className="w-full"
-          />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide3" className="btn btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div id="slide3" className="carousel-item relative w-full">
-          <img
-            src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
-            className="w-full"
-          />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide4" className="btn btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div id="slide4" className="carousel-item relative w-full">
-          <img
-            src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
-            className="w-full"
-          />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide1" className="btn btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
+        ))}
       </div>
+      <div className="buttons left-0 right-0 flex justify-between px-4 z-30">
+        <button id="prev" onClick={prevSlide}>
+          {"<"}
+        </button>
+        <button id="next" onClick={nextSlide}>
+          {">"}
+        </button>
+      </div>
+      <ul className="dots bottom-4 left-0 right-0 flex justify-center z-20">
+        {items.map((_, index) => (
+          <li
+            key={index}
+            className={index === active ? "active" : ""}
+            onClick={() => handleDotClick(index)}
+          ></li>
+        ))}
+      </ul>
     </div>
   );
 };
