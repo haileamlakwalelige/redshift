@@ -12,10 +12,10 @@ const HomeAbout = () => {
           ABOUT
         </p>
         <div>
-          <p className="relative  items-end max-w-[100px] font-extrabold vie text-secondary text-[18px] lg:text-[20px] ">
+          <p className="relative  items-end max-w-[100px] font-extrabold vie text-secondary text-[18px] lg:text-[20px] pb-6">
             REDSHIFT
           </p>
-          <span className="absolute h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[152px]  bg-primary"></span>
+          <span className="absolute h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-6 min-w-[152px]  bg-primary"></span>
         </div>
       </div>
       <div className="flex justify-center items-center">
