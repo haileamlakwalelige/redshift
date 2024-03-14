@@ -34,7 +34,7 @@ const DetailSecondIntro = () => {
           </p>
         </div>
         <div className="md:w-1/2 lg:w-2/5">
-          <img src={sec} alt="" className="min-h-[55vh]"/>
+          <img src={sec} alt="" className="lg:min-h-[55vh]"/>
         </div>
       </div>
     </div>
