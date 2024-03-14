@@ -2,6 +2,8 @@
 
 
 import React, { useState, useEffect } from "react";
+import bg from "../../assets/redbgs.png";
+
 import ser1 from "../../assets/show1.png";
 import ser2 from "../../assets/show2.png";
 import ser3 from "../../assets/show3.png";
@@ -30,7 +32,10 @@ function DetailScroll() {
   }, []); // Empty dependency array means this effect will only run once after the component mounts
 
   return (
-    <div className="mt-10">
+    <div
+      style={{ backgroundImage: `url(${bg})` }}
+      className="mt-10 bg-cover bg-center bg-no-repeat py-10 px-2 sm:px-6 md:px-16 lg:px-32"
+    >
       <div className="flex-col lg:flex-row h-70vh gap-4 lg:gap-20 rounded-lg p-4 flex ">
         <div className="lg:h-[80vh] gap-4 carousel carousel-center lg:carousel-vertical rounded-box">
           {images.map((image, index) => (
@@ -40,9 +45,7 @@ function DetailScroll() {
                 alt={`Image ${index + 1}`}
                 onClick={() => handleImageClick(image.src)}
                 className={`carousel-item block mb-4 cursor-pointer h-[203px] w-[288px] ${
-                  selectedImage === image.src
-                    ? "border-2 border-primary rounded-xl"
-                    : ""
+                  selectedImage === image.src ? " rounded-xl" : ""
                 }`}
               />
             </div>
