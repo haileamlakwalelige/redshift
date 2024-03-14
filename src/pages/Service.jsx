@@ -7,6 +7,7 @@ const Service = () => {
     <div>
       <ServiceIntro />
       <ServiceCard />
+
     </div>
   );
 };
