@@ -21,7 +21,7 @@ const DetailIntro = () => {
             </p>
             <span className="h-[3px] -mt-1 lg:-mt-2 ml-3  lg:ml-3 min-w-[112px]  bg-primary"></span>
           </div>
-          <p className="text-secondary text-[16px] text-start px-2 md:pr-4 lg:pr-8 lg:text-[20px]">
+          <p className="text-secondary text-[16px] text-start px-2 md:pr-4 lg:pr-8 lg:text-[18px]">
             The transportation landscape in Ethiopia faces challenges marked by
             a lack of cost-effective and environmentally friendly tricycle
             vehicles. The market is saturated with liquid metal and low-quality
@@ -44,7 +44,7 @@ const DetailIntro = () => {
             </p>
             <span className="h-[3px] -mt-1 lg:-mt-2 ml-3  lg:ml-3 min-w-[112px]  bg-primary"></span>
           </div>
-          <p className="text-secondary text-[16px] text-start px-2 md:pr-4 lg:pr-8 lg:text-[20px]">
+          <p className="text-secondary text-[16px] text-start px-2 md:pr-4 lg:pr-8 lg:text-[18px]">
           Enter Redshift Corp, a forward-thinking manufacturer specializing in electric and hybrid vehicles. Redshift identifies the need for safe, economical, and modern mobility options, and our innovative tricycle models address these shortcomings. With unique features such as a fully enclosed cabin, steering wheel operation, and a powerful 300cc engine, Redshift's tricycles stand out in the market, offering a reliable and efficient solution for transportation needs.
           </p>
         </div>
