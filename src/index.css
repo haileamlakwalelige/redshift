@@ -34,6 +34,11 @@ button {
 .cri {
     font-family: "Crimson Text", serif;
 }
+
+.rotat {
+    transform: rotate(45deg);
+  }
+
 .blog {
     background: url('./assets/blogbg.png');
     background-size: cover;
@@ -46,7 +51,12 @@ button {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.about {
+    background: url('./assets/1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .bg {
     background-color: rgba(0, 0, 0, 0.5);
     background: url('./assets/introbg.png');
