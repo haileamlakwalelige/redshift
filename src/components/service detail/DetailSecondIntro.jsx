@@ -5,7 +5,7 @@ const DetailSecondIntro = () => {
   return (
     <div>
       <div className=" flex justify-center items-center flex-col ml-2 py-6 px-2">
-        <p className="items-end max-w-full font-extrabold  text-secondary text-center text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] px-2">
+        <p className="items-end max-w-full font-extrabold  text-secondary text-center text-[25px] sm:text-[25px] md:text-[30px] lg:text-[32px]  px-2">
           OPERATING IN BOTH ELECTRIC AND <br /> GASOLINE MAKES IT UNIQUE IN
           SELLING
         </p>

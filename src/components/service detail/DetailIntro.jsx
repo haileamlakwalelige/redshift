@@ -4,14 +4,14 @@ const DetailIntro = () => {
   return (
     <div className="px-2 sm:px-4 md:px-8 lg:px-16">
       <div className=" flex justify-center items-center flex-col ml-2 py-6">
-        <p className="items-end max-w-full font-extrabold  text-secondary text-center text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] px-2">
+        <p className="items-end max-w-full font-extrabold  text-secondary text-center text-[25px] sm:text-[25px] md:text-[30px] lg:text-[32px]  px-2">
           INNOVATIVE ELECTRIC AND HYBRID <br /> VEHICLE MANUFACTURING
         </p>
         <span className="h-1 -mt-1 lg:-mt-2 min-w-[300px] md:min-w-[400px] lg:min-w-[500px] xl:min-w-[550px] bg-primary"></span>
       </div>
       <div>
         <div className="flex justify-center items-start flex-col ml-2 py-3">
-          <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
+          <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] sm:text-[25px] md:text-[30px] lg:text-[32px] ">
             PROBLEM
           </p>
           <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[152px]  bg-primary"></span>
@@ -29,7 +29,7 @@ const DetailIntro = () => {
       {/* Two */}
       <div>
         <div className="flex justify-center items-start flex-col ml-2 py-3">
-          <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
+          <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] sm:text-[25px] md:text-[30px] lg:text-[32px] ">
             SOLUTION
           </p>
           <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[152px]  bg-primary"></span>
@@ -48,7 +48,7 @@ const DetailIntro = () => {
       {/* Three */}
       <div>
         <div className="flex justify-center items-start flex-col ml-2 py-3">
-          <p className="  items-end  font-extrabold vie text-secondary text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
+          <p className="  items-end  font-extrabold vie text-secondary text-[25px] sm:text-[25px] md:text-[30px] lg:text-[32px] ">
             OUR APPROACH
           </p>
           <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[152px]  bg-primary"></span>
@@ -66,7 +66,7 @@ const DetailIntro = () => {
       {/* Four */}
       <div>
         <div className="flex justify-center items-start flex-col ml-2 py-3">
-          <p className="  items-end font-extrabold vie text-secondary text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
+          <p className="  items-end font-extrabold vie text-secondary text-[25px] sm:text-[25px] md:text-[30px] lg:text-[32px] ">
             PRODUCT FEATURES
           </p>
           <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[152px]  bg-primary"></span>
