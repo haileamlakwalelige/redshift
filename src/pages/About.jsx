@@ -6,11 +6,11 @@ import AboutEvolution from "../components/about/AboutEvolution";
 import AboutPlan from "../components/about/AboutPlan";
 import AboutMarket from "../components/about/AboutMarket";
 import AboutBusiness from "../components/about/AboutBusiness";
-import AboutPartners from "../components/about/AboutPartners";
+// import AboutPartners from "../components/about/AboutPartners";
 
 const About = () => {
   return (
-    <div className="mt-32">
+    <div>
       <AboutWhat />
       <AboutMission />
       <AboutVision />
@@ -18,7 +18,7 @@ const About = () => {
       <AboutPlan />
       <AboutMarket />
       <AboutBusiness />
-      <AboutPartners />
+      {/* <AboutPartners /> */}
     </div>
   );
 };
