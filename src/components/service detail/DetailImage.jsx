@@ -1,10 +1,14 @@
 import React from "react";
 import serdet1 from "../../assets/serdet1.png";
+import white from "../../assets/white.jpg";
 
 const DetailImage = () => {
   return (
-    <div className="px-2 sm:px-4 md:px-8 lg:px-16">
-      <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
+    <div
+      style={{ backgroundImage: `url(${white})` }}
+      className="px-2 bg-white sm:px-4 md:px-8 lg:px-16 bg-center bg-cover bg-no-repeat"
+    >
+      <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center bg-white">
         <div>
           {/* Three */}
           <div className="w-full">
@@ -14,7 +18,7 @@ const DetailImage = () => {
               </p>
               <span className="h-[3px] -mt-1 lg:-mt-2 ml-3  lg:ml-3 min-w-[112px]  bg-primary"></span>
             </div>
-            <p className="text-secondary text-[16px] text-start px-2 md:pr-4 lg:pr-8 lg:text-[20px]">
+            <p className="text-secondary text-[16px] text-start px-2 md:pr-4 lg:pr-8 lg:text-[18px]">
               Redshift has strategically evolved since its establishment in
               2016, transitioning from a construction business to a
               manufacturing powerhouse focused on electric and hybrid vehicles.
@@ -32,7 +36,7 @@ const DetailImage = () => {
               </p>
               <span className="h-[3px] -mt-1 lg:-mt-2 ml-3  lg:ml-3 min-w-[112px]  bg-primary"></span>
             </div>
-            <p className="text-secondary text-[16px] text-start px-2 md:pr-4 lg:pr-8 lg:text-[20px]">
+            <p className="text-secondary text-[16px] text-start px-2 md:pr-4 lg:pr-8 lg:text-[18px]">
               Explore Redshift's range of electric and hybrid vehicles,
               including three and four-wheel models and E-cabs. With advanced
               features like a digital dashboard, full car body, luxury interior,
