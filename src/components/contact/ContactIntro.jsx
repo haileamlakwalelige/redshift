@@ -11,7 +11,7 @@ const ContactIntro = () => {
         feedback. Here are various ways to get in touch with us
       </p>
       <div className="flex justify-center items-start flex-col ml-2 py-6">
-        <p className="items-end max-w-full font-extrabold vie text-secondary text-[18px] lg:text-[20px]  px-2">
+        <p className="items-end max-w-full font-extrabold vie text-secondary text-[18px] lg:text-[20px]  px-2 pb-6">
           SOCIAL MEDIA{" "}
         </p>
         <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[172px]  bg-primary"></span>
