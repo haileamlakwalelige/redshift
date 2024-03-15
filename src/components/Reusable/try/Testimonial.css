@@ -1,0 +1,91 @@
+.testimonial-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  overflow-x: auto;
+  /* Allow horizontal scrolling */
+  padding: 0 20px;
+  /* Add some padding */
+  position: relative;
+  /* Add relative positioning */
+}
+
+.testimonial {
+  flex: 1;
+  margin-top: -15%;
+  max-width: 300px;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.testimonial:hover {
+  transform: scale(1.05);
+}
+
+.testimonial.selected {
+  transform: scale(1.2);
+  position: absolute;
+  top: 80%;
+  /* Adjust the top value as per your preference */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -50px;
+  /* Add negative margin-top to move the selected testimonial lower */
+}
+
+.testimonial.selected img {
+  width: 70%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.testimonial.selected h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonial.selected p {
+  font-size: 15px;
+}
+
+.testimonial.selected {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @apply z-20 w-full px-3;
+}
+
+.testimonial:not(.selected) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @apply z-10;
+}
+
+.testimonial:not(.selected) img {
+  width: 30%;
+  /* Adjust the width as per your preference */
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial:not(.selected) h3 {
+  font-size: 14px;
+  /* Adjust the font size as per your preference */
+  margin-bottom: 5px;
+}
+
+.testimonial:not(.selected) p {
+  font-size: 12px;
+  /* Adjust the font size as per your preference */
+}
+
+.testimonial:not(.selected):hover {
+  transform: scale(1.05);
+}
