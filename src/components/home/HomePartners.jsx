@@ -6,7 +6,7 @@ const HomePartners = () => {
   return (
     <div className="mt-5">
       <div className="flex justify-center items-start flex-col ml-1 py-4">
-        <p className="items-end max-w-[80px] pb-6 font-extrabold vie text-secondary text-[20px] sm:text-[25px] md:text-[30px] lg:text-[35px]">
+        <p className="items-end max-w-[80px] pb-2 font-extrabold vie text-secondary text-[20px] sm:text-[25px] md:text-[30px] lg:text-[35px]">
           PARTNERS
         </p>
         <span className="h-0.5 -mt-0.5 lg:-mt-1 ml-2 lg:ml-8 min-w-[180px] bg-primary"></span>

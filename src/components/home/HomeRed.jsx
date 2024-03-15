@@ -3,7 +3,10 @@ import bg from '../../assets/redbgs.png';
 
 const HomeRed = () => {
   return (
-    <div style={{ backgroundImage: `url(${bg})` }} className="bg-no-repeat bg-cover bg-center pt-10 px-4 ">
+    <div
+      style={{ backgroundImage: `url(${bg})` }}
+      className="bg-no-repeat bg-cover bg-center pt-10 px-4 "
+    >
       <div className="flex justify-center items-start flex-col ml-2 py-3">
         <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] md:text-[30px] lg:text-[32px]">
           REDSHIFT
@@ -12,8 +15,8 @@ const HomeRed = () => {
       </div>
       <div className="flex  justify-center items-center p-4">
         <div className="flex flex-wrap lg:flex-nowrap px-2 sm:px-4 justify-center items-center gap-10">
-          <div>
-            <p className="text-primary text-start font-bold text-[24px] lg:text-[28px] pb-6">
+          <div data-aos="fade-right">
+            <p className="text-primary text-start font-bold text-[24px] lg:text-[28px] pb-2">
               Redshift Revolution
             </p>
             <p className="text-secondary text-start text-16px] md:text-[20px] px-3">
@@ -24,7 +27,7 @@ const HomeRed = () => {
               greener future.
             </p>
           </div>
-          <div>
+          <div data-aos="fade-left">
             <iframe
               src="https://www.youtube.com/embed/2yBk1giIfqE"
               title="Parallax Scrolling Effect | HTML CSS &amp; JavaScript"

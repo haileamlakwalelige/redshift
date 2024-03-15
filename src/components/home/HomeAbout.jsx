@@ -12,7 +12,7 @@ const HomeAbout = () => {
           ABOUT
         </p>
         <div>
-          <p className="relative  items-end max-w-[100px] font-extrabold vie text-secondary text-[18px] lg:text-[20px] pb-6">
+          <p className="relative  items-end max-w-[100px] font-extrabold vie text-secondary text-[18px] lg:text-[20px] pb-2">
             REDSHIFT
           </p>
           <span className="absolute h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-6 min-w-[152px]  bg-primary"></span>
@@ -21,7 +21,11 @@ const HomeAbout = () => {
       <div className="flex justify-center items-center">
         <div className="flex justify-center items-center px-2 sm:px-6 md:px-12 lg:px-20">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-6 md:gap-10 lg:gap-20">
-            <div className="justify-center items-center flex">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              className="justify-center items-center flex"
+            >
               <div className="bg-[#F8F9FA] rounded-xl min-h-[420px] max-w-[338px] px-2   py-8">
                 <div className="text-center flex justify-center items-center">
                   <img
@@ -40,7 +44,11 @@ const HomeAbout = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-center items-center">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              className="flex justify-center items-center"
+            >
               <div className="bg-[#F8F9FA] rounded-xl min-h-[420px] max-w-[338px] px-2   py-8">
                 <div className="text-center flex justify-center items-center">
                   <img
@@ -60,7 +68,11 @@ const HomeAbout = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-center items-center">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              className="flex justify-center items-center"
+            >
               <div className="bg-[#F8F9FA] rounded-xl min-h-[420px] max-w-[338px] px-2   py-8">
                 <div className="text-center flex justify-center items-center">
                   <img

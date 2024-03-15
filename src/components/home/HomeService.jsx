@@ -24,7 +24,7 @@ const HomeService = () => {
   };
 
   return (
-    <div className="mt-10 overflow-x-hidden bg-[#F8F9FA]">
+    <div className="mt-10 overflow-x-hidden bg-[#F8F9FA] overflow-y-hidden">
       <div className="flex justify-start items-start ml-2 py-6">
         <div>
           <p className="relative  items-end  pb-3 font-extrabold vie text-secondary text-[25px] md:text-[30px] lg:text-[32px]">
@@ -35,7 +35,7 @@ const HomeService = () => {
       </div>
       <div className="flex justify-center items-center">
         <div className="flex justify-center flex-wrap lg:flex-nowrap items-center gap-6 md:gap-12 lg:gap-20">
-          <div className="max-w-[470px]  p-2 pb-10 ">
+          <div data-aos="flip-left" className="max-w-[470px]  p-2 pb-10 ">
             <img
               src={!isHover1 ? ser1 : car1}
               alt=""
@@ -56,7 +56,7 @@ const HomeService = () => {
 
           <div className="border-r-[1px] lg:flex hidden border-gray-500 min-h-[300px]"></div>
           {/* Service two */}
-          <div className="max-w-[470px] rounded-xl p-2 pb-10 ">
+          <div data-aos="flip-right" className="max-w-[470px] rounded-xl p-2 pb-10 ">
             <img
               src={!isHover2 ? ser2 : car2}
               alt=""
