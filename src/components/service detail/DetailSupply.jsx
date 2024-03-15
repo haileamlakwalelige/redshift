@@ -5,7 +5,7 @@ const DetailSupply = () => {
     <div className="px-2 sm:px-4 pb-10">
       <div>
         <div className=" flex justify-center items-start flex-col ml-2 py-6 px-2 sm:px-4 md:px-8 lg:px-12">
-          <p className="items-end max-w-full font-extrabold  text-secondary text-start text-[18px] lg:text-[20px] px-2 pb-6">
+          <p className="items-end max-w-full font-extrabold  text-secondary text-start text-[18px] lg:text-[20px] px-2 pb-2">
             OUR SUPPLY CAPACITY
           </p>
           <span className="h-[2px] -mt-1 lg:-mt-2 min-w-[300px]  bg-primary"></span>

@@ -11,7 +11,7 @@ const DetailWhat = () => {
       className="px-2 sm:px-6 md:px-12 lg:px-20 w-screen bg-cover bg-top h-full bg-no-repeat"
     >
       <div className=" flex justify-center items-center flex-col ml-2 py-6">
-        <p className="items-end max-w-full font-extrabold  text-secondary text-center text-[18px] lg:text-[20] pb-6 px-2">
+        <p className="items-end max-w-full font-extrabold  text-secondary text-center text-[18px] lg:text-[20] pb-2 px-2">
           WHAT IS THE DIFFERENCE?
         </p>
         <span className="h-[2px] -mt-1 lg:-mt-2 min-w-[300px] bg-primary"></span>

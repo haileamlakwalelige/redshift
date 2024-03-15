@@ -12,7 +12,7 @@ const DetailConstruction = () => {
       <div className="flex flex-wrap lg:flex-nowrap gap-10 justify-center items-center">
         <div className="lg:w-3/5">
           <div className=" flex justify-center items-start flex-col ml-2 py-6">
-            <p className="items-end max-w-full font-extrabold  text-secondary text-start text-[18px] lg:text-[20px]  px-2 pb-6">
+            <p className="items-end max-w-full font-extrabold  text-secondary text-start text-[18px] lg:text-[20px]  px-2 pb-2">
               CONSTRUCTION EXPERTISE AND SOLUTIONS
             </p>
             <span className="h-1 -mt-1 lg:-mt-2 ml-10 min-w-[300px] md:min-w-[400px] text-center flex justify-center items-center bg-primary"></span>
@@ -28,7 +28,7 @@ const DetailConstruction = () => {
 
           <div>
             <div className=" flex justify-center items-start flex-col ml-2 py-6">
-              <p className="items-end max-w-full font-extrabold  text-secondary text-start text-[18px] lg:text-[20px]  px-2 pb-6">
+              <p className="items-end max-w-full font-extrabold  text-secondary text-start text-[18px] lg:text-[20px]  px-2 pb-2">
                 KEY SERVICE OFFERINGS{" "}
               </p>
               <span className="h-1 -mt-1 lg:-mt-2 ml-10 min-w-[150px]  text-center flex justify-center items-center bg-primary"></span>

@@ -13,7 +13,7 @@ const DetailImage = () => {
           {/* Three */}
           <div className="w-full">
             <div className="flex justify-center items-start flex-col ml-2 py-3 mb-3">
-              <p className="  items-end font-extrabold vie text-secondary text-[18px] pb-4  lg:text-[20px]">
+              <p className="  items-end font-extrabold vie text-secondary text-[18px] pb-2  lg:text-[20px]">
                 OUR APPROACH
               </p>
               <span className="h-[3px] -mt-1 lg:-mt-2 ml-3  lg:ml-3 min-w-[112px]  bg-primary"></span>
@@ -31,7 +31,7 @@ const DetailImage = () => {
           {/* Four */}
           <div className="w-full mt-16">
             <div className="flex justify-center items-start flex-col ml-2 py-3 mb-3">
-              <p className="  items-end font-extrabold vie text-secondary text-[18px] pb-4  lg:text-[20px]">
+              <p className="  items-end font-extrabold vie text-secondary text-[18px] pb-2  lg:text-[20px]">
                 PRODUCT FEATURES
               </p>
               <span className="h-[3px] -mt-1 lg:-mt-2 ml-3  lg:ml-3 min-w-[112px]  bg-primary"></span>

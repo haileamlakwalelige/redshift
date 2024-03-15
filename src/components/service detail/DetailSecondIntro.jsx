@@ -8,7 +8,7 @@ const DetailSecondIntro = () => {
       <div className="flex md:flex-row flex-col justify-center items-center gap-6 mt-6 py-10 px-2 lg:px-6 pb-20">
         <div className="md:w-1/2 lg:w-3/5">
           <div className=" flex justify-center items-center flex-col ml-2 py-6 px-2">
-            <p className="items-end max-w-full font-extrabold  text-secondary text-center text-[18px] lg:text-[20px] px-2 pb-6">
+            <p className="items-end max-w-full font-extrabold  text-secondary text-center text-[18px] lg:text-[20px] px-2 pb-2">
               OPERATING IN BOTH ELECTRIC AND GASOLINE MAKES IT UNIQUE IN <br />{" "}
               SELLING
             </p>
@@ -34,7 +34,7 @@ const DetailSecondIntro = () => {
           </p>
         </div>
         <div className="md:w-1/2 lg:w-2/5">
-          <img src={sec} alt="" className="lg:min-h-[55vh]"/>
+          <img src={sec} alt="" className="lg:min-h-[55vh]" />
         </div>
       </div>
     </div>
