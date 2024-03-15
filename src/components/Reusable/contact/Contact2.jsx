@@ -5,7 +5,7 @@ import lin from "../../../assets/lin.png";
 const Contact2 = () => {
   return (
     <div className="lg:mt-44">
-      <div className="bg-[#D9D9D9] flex flex-col justify-center items-center xl:w-[346px] px-3 pb-6 xl:min-h-[449px] w-full h-full relative rounded-2xl">
+      <div className="bg-[#D9D9D9] flex flex-col justify-center items-center xl:w-[346px] px-3 pb-2 xl:min-h-[449px] w-full h-full relative rounded-2xl">
         <img
           src={sol1}
           alt=""

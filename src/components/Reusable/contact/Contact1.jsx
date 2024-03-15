@@ -5,7 +5,7 @@ import tik from "../../../assets/tik.png";
 const Contact1 = () => {
   return (
     <div className="lg:-mt-44">
-      <div className="bg-[#D9D9D9] flex flex-col justify-center items-center xl:w-[340px] px-3 pb-6 xl:min-h-[350px] w-full h-full relative rounded-2xl">
+      <div className="bg-[#D9D9D9] flex flex-col justify-center items-center xl:w-[340px] px-3 pb-2 xl:min-h-[350px] w-full h-full relative rounded-2xl">
         <img
           src={sol1}
           alt=""
