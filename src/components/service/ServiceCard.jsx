@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Wave from "react-wavify";
-import theme from "../../assets/theme.png";
+import theme from "../../assets/toku.png";
 
 const ServiceCard = () => {
   const [hoverStates, setHoverStates] = useState([]);
