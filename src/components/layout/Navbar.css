@@ -19,7 +19,7 @@
   font-weight: normal;
   /* Ensure the default font weight */
   position: relative;
-  @apply pb-4;
+  @apply pb-2;
   /* Position relative for absolute positioning of pseudo-element */
 }
 
