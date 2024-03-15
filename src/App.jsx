@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Four0Four from "./pages/Four0Four";
@@ -7,8 +7,6 @@ import Contact from "./pages/Contact";
 import Products from "./pages/Products";
 import Service from "./pages/Service";
 import About from "./pages/About";
-// import Navbar1 from "./components/layout/Navbar1"; 
-// import Navbar2 from "./components/layout/Navbar2"; 
 import Copy from "./components/layout/Copy";
 import Footer from "./components/layout/Footer";
 import ServiceDetail from "./pages/ServiceDetail";
@@ -18,6 +16,8 @@ import Cars from "./components/layout/Cars";
 import ScrollToTop from "./ScrollToTop";
 import Navbar2 from "./components/layout/Navbar2";
 import Navbar1 from "./components/layout/Navbar1";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import the CSS file for AOS
 
 const App = () => {
   const location = useLocation();
@@ -32,6 +32,16 @@ const App = () => {
       pathname === "/contact"
     );
   };
+
+  // Initialize AOS outside of the return statement
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Set the duration for animations (in milliseconds)
+      easing: 'ease-in-out', // Set the easing function for animations
+      once: true, // Set whether animations should only happen once
+      mirror: false // Set whether elements should animate out while scrolling past them
+    });
+  }, []);
 
   return (
     <div>
