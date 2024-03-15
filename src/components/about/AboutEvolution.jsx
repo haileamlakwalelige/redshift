@@ -8,7 +8,7 @@ const AboutEvolution = () => {
         <div className="flex flex-col lg:flex-row justify-center items-start gap-10 lg:gap-16">
           <div className="h-full w-full lg:w-2/5 mt-10">
             <div className=" flex justify-center items-start flex-col ml-2 py-6">
-              <p className="items-end max-w-full font-extrabold vie text-secondary text-start text-[18px] lg:text-[20px]  px-2">
+              <p className="items-end max-w-full font-extrabold vie text-secondary text-start text-[18px] lg:text-[20px]  px-2 pb-2">
                 EVOLUTION{" "}
               </p>
               <span className="h-1 lg:-mt-2 pl-12 min-w-[120px] ml-10 text-center bg-primary"></span>
