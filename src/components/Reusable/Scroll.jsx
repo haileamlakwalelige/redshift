@@ -27,7 +27,10 @@ function Scroll() {
   }, []); // Empty dependency array means this effect will only run once after the component mounts
 
   return (
-    <div className="px-2 sm:px-6 md:px-12 lg:px-20 xl:px-28">
+    <div
+      data-aos="slide-up"
+      className="px-2 sm:px-6 md:px-12 lg:px-20 xl:px-28"
+    >
       <div className="flex-col lg:flex-row h-70vh gap-4 md:gap-10 lg:gap-20 xl:gap-28 rounded-lg p-4 flex ">
         <div className="lg:h-[80vh] gap-4 carousel carousel-center lg:carousel-vertical rounded-box">
           {images.map((image, index) => (
