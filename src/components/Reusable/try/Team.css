@@ -1,0 +1,11 @@
+.team-member {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .team-member:hover {
+    transform: scale(1.1);
+  }
+  
+  .team-member.selected {
+    transform: scale(1.1);
+  }
