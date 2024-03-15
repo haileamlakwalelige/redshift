@@ -6,12 +6,14 @@ import HomeService from "../components/home/HomeService";
 import HomeProducts from "../components/home/HomeProducts";
 import Scroll from "../components/Reusable/Scroll";
 
-import HomeTestimony from "../components/home/HomeTestimony";
+// import HomeTestimony from "../components/home/HomeTestimony";
 import HomePartners from "../components/home/HomePartners";
 import FAQ from "../components/home/FAQ";
 
 import Slider from "../components/Reusable/sliding/Slider";
 import HomeJoin from "../components/home/HomeJoin";
+// import Try from '../components/Reusable/try/Try';
+import TestimonialSection from '../components/Reusable/try/TestimonialSection';
 
 const Home = () => {
   return (
@@ -22,7 +24,9 @@ const Home = () => {
       <HomeService />
       <HomeProducts />
       <Scroll />
-      <HomeTestimony />
+      {/* <HomeTestimony /> */}
+      <TestimonialSection />
+      {/* <Try /> */}
       <HomePartners />
       <HomeJoin />
       <FAQ />

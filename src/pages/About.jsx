@@ -6,6 +6,7 @@ import AboutEvolution from "../components/about/AboutEvolution";
 import AboutPlan from "../components/about/AboutPlan";
 import AboutMarket from "../components/about/AboutMarket";
 import AboutBusiness from "../components/about/AboutBusiness";
+import Team from "../components/Reusable/try/Team";
 // import AboutPartners from "../components/about/AboutPartners";
 
 const About = () => {
@@ -15,6 +16,7 @@ const About = () => {
       <AboutMission />
       <AboutVision />
       <AboutEvolution />
+      <Team />
       <AboutPlan />
       <AboutMarket />
       <AboutBusiness />
