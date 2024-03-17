@@ -26,7 +26,6 @@ const App = () => {
   const useNavbar2 = () => {
     const { pathname } = location;
     return (
-      pathname === "/products" ||
       pathname === "/producttwo" ||
       pathname === "/service-detail" ||
       pathname === "/contact"
