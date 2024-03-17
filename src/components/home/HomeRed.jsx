@@ -8,15 +8,15 @@ const HomeRed = () => {
       className="bg-no-repeat bg-cover bg-center pt-10 px-4 "
     >
       <div className="flex justify-center items-start flex-col ml-2 py-3">
-        <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] md:text-[30px] lg:text-[32px]">
+        <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] md:text-[30px] lg:text-[32px] pb-2">
           REDSHIFT
         </p>
-        <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[152px]  bg-primary"></span>
+        <span className="h-1 -mt-1 lg:-mt-2 ml-3 min-w-[152px]  bg-primary"></span>
       </div>
       <div className="flex  justify-center items-center p-4">
         <div className="flex flex-wrap lg:flex-nowrap px-2 sm:px-4 justify-center items-center gap-10">
           <div data-aos="fade-right">
-            <p className="text-primary text-start font-bold text-[24px] lg:text-[28px] pb-2">
+            <p className="text-primary text-start font-bold text-[24px] lg:text-[28px] pb-6 pl-2">
               Redshift Revolution
             </p>
             <p className="text-secondary text-start text-16px] md:text-[20px] px-3">
