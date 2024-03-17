@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="flex justify-center items-center">
+    <div id="form" className="flex justify-center items-center">
       <form className="flex flex-col justify-center items-center">
         <div className="my-3">
           <p className="text-secondary text-start text-[24px]   cri font-light">
