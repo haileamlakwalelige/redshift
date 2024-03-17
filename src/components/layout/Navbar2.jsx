@@ -110,11 +110,7 @@ const Navbar2 = () => {
           <li className="nav-item lg:mr-44 xl:mr-0">
             <Link
               to="/contact"
-              className={`${
-                !scrolled
-                  ? "nav-links but -mt-10 md:mt-0   hover:lg:rounded-3xl lg:bg-primary duration-50  font-normal"
-                  : "nav-links but -mt-10 md:mt-0   hover:lg:rounded-3xl lg:bg-white text-primary duration-50  font-normal"
-              }`}
+              className={` nav-links but -mt-10 md:mt-0   hover:lg:rounded-3xl lg:bg-white text-primary duration-50  font-normal `}
               onClick={closeMobileMenu}
             >
               Contact
