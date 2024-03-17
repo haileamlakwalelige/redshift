@@ -40,9 +40,7 @@ function Scroll() {
                 alt={`Image ${index + 1}`}
                 onClick={() => handleImageClick(image.src)}
                 className={`carousel-item block mb-4 cursor-pointer h-[203px] w-[288px] ${
-                  selectedImage === image.src
-                    ? "border-2 border-primary rounded-xl"
-                    : ""
+                  selectedImage === image.src ? " rounded-xl" : ""
                 }`}
               />
             </div>
@@ -53,7 +51,7 @@ function Scroll() {
             <img
               src={selectedImage}
               alt="Image Data"
-              className="h-full w-full"
+              className="h-full w-[60vw]"
             />
           )}
         </div>
