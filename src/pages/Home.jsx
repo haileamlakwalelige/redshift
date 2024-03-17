@@ -17,7 +17,7 @@ import TestimonialSection from '../components/Reusable/try/TestimonialSection';
 
 const Home = () => {
   return (
-    <div className=" overflow-x-hidden w-full h-full bg-white">
+    <div className=" overflow-x-hidden overflow-y-hidden w-full h-full bg-white">
       <Slider />
       <HomeRed />
       <HomeAbout />
