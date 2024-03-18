@@ -69,3 +69,18 @@ button {
     background-size: cover;
     /* width: 100vw; */
 }
+.imo:hover {
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #d1cdcd,
+        -20px -20px 60px #ffffff;
+    @apply duration-300;
+}
+
+.imos:hover {
+    border-radius: 50px;
+    background: #333232;
+    box-shadow: 2px 2px 6px #11035e,
+        -2px -2px 6px #02074d;
+    @apply duration-300;
+}
