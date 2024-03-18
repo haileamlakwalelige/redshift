@@ -208,7 +208,11 @@ const DetailWhat = () => {
             </li>
           </ul>
           <div>
-            <img src={us} alt="" className="mt-10" />
+            <img
+              src={us}
+              alt=""
+              className="mt-16 max-w-[450px] lg:min-w-[530px] max-h-[375px]"
+            />
           </div>
         </div>
       </div>

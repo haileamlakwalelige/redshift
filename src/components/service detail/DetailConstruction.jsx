@@ -9,7 +9,7 @@ const DetailConstruction = () => {
       style={{ backgroundImage: `url(${expert})` }}
       className="px-2 sm:px-4 md:px-8 lg:px-12 bg-cover bg-center bg-no-repeat py-10"
     >
-      <div className="flex flex-wrap lg:flex-nowrap gap-10 justify-center items-center">
+      <div className="flex flex-wrap lg:flex-nowrap gap-10 justify-end items-end">
         <div className="lg:w-3/5">
           <div className=" flex justify-center items-start flex-col ml-2 py-6">
             <p className="items-end max-w-full font-extrabold  text-secondary text-start text-[18px] lg:text-[20px]  px-2 pb-2">
@@ -138,7 +138,11 @@ const DetailConstruction = () => {
           </div>
         </div>
         <div>
-          <img src={cons} alt="" className="max-h-[580px] max-w-[468px]" />
+          <img
+            src={cons}
+            alt=""
+            className="max-h-[580px] max-w-[468px] rounded-md"
+          />
         </div>
       </div>
     </div>
