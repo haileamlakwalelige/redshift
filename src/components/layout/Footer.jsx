@@ -9,13 +9,16 @@ import footer from '../../assets/footers.png'
 
 const Footer = () => {
   return (
-    <div style={{
-      background: `url(${footer})`,
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
-      backgroundSize: "cover",
-      // width: "100vw" // You can include or exclude this line as needed
-    }} className=" -mt-10 z-30">
+    <div
+      style={{
+        background: `url(${footer})`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        // width: "100vw" // You can include or exclude this line as needed
+      }}
+      className=" -mt-10 z-30"
+    >
       <div className="flex justify-center items-center">
         <div className="flex flex-col justify-center items-center px-2 sm:px-4 md:px-8 lg:px-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 lg:gap-16 justify-center items-start py-20 min-h-[60vh]">
@@ -59,7 +62,7 @@ const Footer = () => {
                   <div className="mt-10">
                     <button
                       type="submit"
-                      className="text-footer bg-primary px-10 py-3 text-[16px] md:text-[18px] "
+                      className="text-footer imos bg-primary hover:bg-[#25224d] duration-500 hover:rounded-xl px-10 py-3 text-[16px] md:text-[18px] "
                     >
                       Subscribe
                     </button>
