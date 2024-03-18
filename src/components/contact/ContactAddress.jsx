@@ -7,7 +7,7 @@ const ContactAddress = () => {
         <p className="items-end max-w-full font-extrabold vie text-secondary text-[18px] lg:text-[20px]  px-2 pb-2">
           ADDRESS
         </p>
-        <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[132px]  bg-primary"></span>
+        <span className="h-1 -mt-1 lg:-mt-2 ml-3  lg:ml-12 min-w-[102px]  bg-primary"></span>
       </div>
       <div className="px-1">
         <iframe
