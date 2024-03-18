@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Wave from "react-wavify";
 import theme from "../../assets/toku.png";
+import { Link } from "react-router-dom";
+import Button from "../Reusable/button/Button";
 
 const ServiceCard = () => {
   const [hoverStates, setHoverStates] = useState([]);
@@ -98,6 +100,9 @@ const ServiceCard = () => {
           </div>
         ))}
       </div>
+      <Link to="/service-detail">
+        <Button type="button" title="Read More" />
+      </Link>
     </div>
   );
 };

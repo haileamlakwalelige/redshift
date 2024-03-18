@@ -29,7 +29,7 @@ function Gallery() {
 
   return (
     <div
-      style={{ backgroundImage: `url(${gallery})` }}
+      style={{ backgroundImage: `url(${gallery})`, backgroundPosition: "left" }}
       className="px-2 sm:px-6 md:px-12 lg:px-20 xl:px-28 bg-cover bg-center bg-no-repeat py-10"
     >
       <div className="flex justify-center items-start flex-col ml-2 py-3 mb-3">
