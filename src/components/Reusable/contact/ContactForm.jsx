@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../button/Button";
 
 const ContactForm = () => {
   return (
@@ -43,12 +44,7 @@ const ContactForm = () => {
           />
         </div>
         <div className="mt-6">
-          <button
-            type="submit"
-            className="text-white bg-primary px-16 py-2 font-medium text-[18px]"
-          >
-            Send
-          </button>
+          <Button type="submit" title="Send" />
         </div>
       </form>
     </div>

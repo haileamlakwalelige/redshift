@@ -3,6 +3,8 @@ import ser1 from "../../assets/ser1.png";
 import ser2 from "../../assets/ser2.png";
 import ser3 from "../../assets/car1.png";
 import ser4 from "../../assets/car2.png";
+import { Link } from "react-router-dom";
+import Button from "./button/Button";
 
 function Scroll() {
   const images = [
@@ -56,6 +58,9 @@ function Scroll() {
           )}
         </div>
       </div>
+      <Link to="/product">
+        <Button type="button" title="Read More" />
+      </Link>
     </div>
   );
 }

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Testimonial.css"; // Styles for Testimonial component
 import test from "../../../assets/test.png";
+import { Link } from "react-router-dom";
+import Button from "../button/Button";
 
 const testimonials = [
   {
@@ -58,7 +60,7 @@ const TestimonialSection = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="flex justify-center items-start flex-col ml-2 pt-20 pb-32 md:pb-0 md:py-20 lg:py-20 mb-3">
+      <div className="flex justify-center items-start flex-col ml-2 pt-20 pb-32 md:pb-0 md:py-20 lg:py-10 mb-3">
         <p className="  items-end font-extrabold vie text-secondary text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] pb-2 ">
           TESTIMONIES
         </p>
@@ -74,6 +76,9 @@ const TestimonialSection = () => {
           />
         ))}
       </div>
+      <Link to="/about">
+        <Button type="button" title="Read More" />
+      </Link>
     </div>
   );
 };
