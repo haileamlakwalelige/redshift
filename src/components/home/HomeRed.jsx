@@ -1,11 +1,14 @@
 import React from "react";
 import bg from '../../assets/redbgs.png';
+import Button from "../Reusable/button/Button";
+import { Link } from "react-router-dom";
+// import Button from "../Reusable/Button";
 
 const HomeRed = () => {
   return (
     <div
       style={{ backgroundImage: `url(${bg})` }}
-      className="bg-no-repeat bg-cover bg-center pt-10 px-4 "
+      className="bg-no-repeat bg-cover bg-center py-10 px-4 "
     >
       <div className="flex justify-center items-start flex-col ml-2 py-3">
         <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] md:text-[30px] lg:text-[32px] pb-2">
@@ -19,7 +22,7 @@ const HomeRed = () => {
             <p className="text-primary text-start font-bold text-[24px] lg:text-[28px] pb-6 pl-2">
               Redshift Revolution
             </p>
-            <p className="text-secondary text-start text-16px] md:text-[20px] px-3">
+            <p className="text-black text-start text-16px] md:text-[20px] px-3">
               Redshift is a forward-thinking manufacturer of electric and hybrid
               vehicles, focused on introducing eco-friendly transportation
               alternatives to Ethiopia. Our team of passionate engineers,
@@ -39,6 +42,9 @@ const HomeRed = () => {
           </div>
         </div>
       </div>
+      <Link to="/about">
+        <Button className="mt-10" title="Read more" type="button" />
+      </Link>
     </div>
   );
 };

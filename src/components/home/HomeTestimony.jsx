@@ -2,11 +2,13 @@ import React from "react";
 import Testimony1 from "../Reusable/testimony/Testimony1";
 import Testimony from "../Reusable/testimony/Testimony";
 import Testimony2 from "../Reusable/testimony/Testimony2";
+import { Link } from "react-router-dom";
+import Button from "../Reusable/button/Button";
 
 const HomeTestimony = () => {
   return (
     <div>
-      <div className="flex justify-center items-start flex-col ml-2 py-6">
+      <div className="flex justify-center items-start flex-col ml-2 pb-6 lg:-mt-10">
         <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[18px] lg:text-[20px] ">
           TESTIMONY
         </p>
@@ -19,6 +21,9 @@ const HomeTestimony = () => {
           <Testimony />
         </div>
       </div>
+      <Link to="/about">
+        <Button title="Read More" type="button"/>
+      </Link>
     </div>
   );
 };

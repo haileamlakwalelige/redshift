@@ -3,6 +3,8 @@ import vision from "../../assets/vision.png";
 import mission from "../../assets/mission.png";
 import goal from "../../assets/goal.png";
 import "./style.css";
+import Button from "../Reusable/button/Button";
+import { Link } from "react-router-dom";
 
 const HomeAbout = () => {
   return (
@@ -26,7 +28,7 @@ const HomeAbout = () => {
               data-aos-duration="1000"
               className="justify-center items-center flex"
             >
-              <div className="bg-[#F8F9FA] rounded-xl min-h-[420px] max-w-[338px] px-2   py-8">
+              <div className="bg-[#F8F9FA] imo rounded-xl min-h-[420px] max-w-[338px] px-2   py-8">
                 <div className="text-center flex justify-center items-center">
                   <img
                     src={vision}
@@ -49,7 +51,7 @@ const HomeAbout = () => {
               data-aos-duration="1500"
               className="flex justify-center items-center"
             >
-              <div className="bg-[#F8F9FA] rounded-xl min-h-[420px] max-w-[338px] px-2   py-8">
+              <div className="bg-[#F8F9FA] imo rounded-xl min-h-[420px] max-w-[338px] px-2   py-8">
                 <div className="text-center flex justify-center items-center">
                   <img
                     src={mission}
@@ -73,7 +75,7 @@ const HomeAbout = () => {
               data-aos-duration="2000"
               className="flex justify-center items-center"
             >
-              <div className="bg-[#F8F9FA] rounded-xl min-h-[420px] max-w-[338px] px-2   py-8">
+              <div className="bg-[#F8F9FA] imo rounded-xl min-h-[420px] max-w-[338px] px-2   py-8">
                 <div className="text-center flex justify-center items-center">
                   <img
                     src={goal}
@@ -93,6 +95,9 @@ const HomeAbout = () => {
           </div>
         </div>
       </div>
+      <Link to="/about">
+        <Button type="button" title="Read More" />
+      </Link>
     </div>
   );
 };

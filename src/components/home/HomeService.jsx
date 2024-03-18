@@ -3,6 +3,8 @@ import ser1 from "../../assets/ser1.png";
 import ser2 from "../../assets/ser2.png";
 import car1 from "../../assets/car1.png";
 import car2 from "../../assets/car2.png";
+import Button from "../Reusable/button/Button";
+import { Link } from "react-router-dom";
 
 const HomeService = () => {
   const [isHover1, setIsHovered1] = useState(false);
@@ -46,7 +48,7 @@ const HomeService = () => {
             <p className="font-bold text-primary text-[20px] md:text-[22px] lg:text-[24px] text-start py-6 px-4">
               Tricycle Manufacturing
             </p>
-            <p className="text-secondary text-[16px] text-start px-2">
+            <p className="text-black text-[16px] text-start px-2">
               We specialize in crafting electric and hybrid tricycles, offering
               models (110, 125, 150, 175, and 200) that stand out for their
               innovation and reliability. Our manufacturing capacity of 0.2
@@ -56,7 +58,10 @@ const HomeService = () => {
 
           <div className="border-r-[1px] lg:flex hidden border-gray-500 min-h-[300px]"></div>
           {/* Service two */}
-          <div data-aos="flip-right" className="max-w-[470px] rounded-xl p-2 pb-10 ">
+          <div
+            data-aos="flip-right"
+            className="max-w-[470px] rounded-xl p-2 pb-10 "
+          >
             <img
               src={!isHover2 ? ser2 : car2}
               alt=""
@@ -76,6 +81,9 @@ const HomeService = () => {
           </div>
         </div>
       </div>
+      <Link to="/service">
+        <Button title="Read More" type="button" />
+      </Link>
     </div>
   );
 };
