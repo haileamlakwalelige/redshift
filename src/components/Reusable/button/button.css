@@ -1,0 +1,35 @@
+/* @import: url(https://fonts.googleapis.com/css?family=Roboto+Condensed); */
+
+.container {
+    text-align: center;
+}
+
+.button {
+    width: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+
+.button-3 {
+    border: 2px solid #002060;
+    background-color: #002060;
+    border-radius: 10px;
+    color: #fff;
+    transition: .3s;
+}
+
+.button-3:hover {
+    box-shadow: 8px 8px rgb(21, 54, 116);
+    transition: .3s;
+}
+
