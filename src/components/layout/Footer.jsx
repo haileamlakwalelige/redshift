@@ -80,7 +80,7 @@ const Footer = () => {
               <Link to="/service">
                 <p className="text-footer text-center pt-2">Service</p>
               </Link>
-              <Link to="/gallery">
+              <Link to="/service-detail#gallery">
                 <p className="text-footer text-center pt-2">Gallery</p>
               </Link>
             </div>
