@@ -1,9 +1,15 @@
 import React, { useState, useEffect } from "react";
-import ser1 from "../../assets/ser1.png";
-import ser2 from "../../assets/ser2.png";
-import ser3 from "../../assets/car1.png";
-import ser4 from "../../assets/car2.png";
-import gallery from "../../assets/gallery.png";
+import ser1 from "../../assets/del1.jpg";
+import ser2 from "../../assets/del2.jpg";
+import ser3 from "../../assets/del3.jpg";
+import ser4 from "../../assets/del4.jpg";
+import ser5 from "../../assets/del5.jpg";
+import ser6 from "../../assets/del6.jpg";
+import ser7 from "../../assets/del7.jpg";
+import ser8 from "../../assets/del8.jpg";
+import ser9 from "../../assets/del9.jpg";
+import ser10 from "../../assets/del10.jpg";
+import gallery from "../../assets/gallery.jpg";
 
 function Gallery() {
   const images = [
@@ -11,10 +17,12 @@ function Gallery() {
     { src: ser2, data: "Data for image 2" },
     { src: ser3, data: "Data for image 3" },
     { src: ser4, data: "Data for image 4" },
-    { src: ser1, data: "Data for image 1" },
-    { src: ser2, data: "Data for image 2" },
-    { src: ser3, data: "Data for image 3" },
-    { src: ser4, data: "Data for image 4" },
+    { src: ser5, data: "Data for image 5" },
+    { src: ser6, data: "Data for image 6" },
+    { src: ser7, data: "Data for image 7" },
+    { src: ser8, data: "Data for image 8" },
+    { src: ser9, data: "Data for image 9" },
+    { src: ser10, data: "Data for image 10" },
   ];
 
   const [selectedImage, setSelectedImage] = useState(images[0].src);
@@ -29,6 +37,7 @@ function Gallery() {
 
   return (
     <div
+      id="gallery"
       style={{ backgroundImage: `url(${gallery})`, backgroundPosition: "left" }}
       className="px-2 sm:px-6 md:px-12 lg:px-20 xl:px-28 bg-cover bg-center bg-no-repeat py-10"
     >
@@ -60,7 +69,7 @@ function Gallery() {
             <img
               src={selectedImage}
               alt="Image Data"
-              className="h-full w-full min-w-[60vw]"
+              className="h-full w-[60vw]"
             />
           )}
         </div>
