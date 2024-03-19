@@ -88,7 +88,7 @@ const Slider = () => {
         {items.map((_, index) => (
           <li
             key={index}
-            className={index === active ? "active" : ""}
+            className={index === active ? "active text-primary" : " text-white"}
             onClick={() => handleDotClick(index)}
           ></li>
         ))}
