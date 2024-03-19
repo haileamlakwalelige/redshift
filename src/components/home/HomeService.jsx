@@ -13,14 +13,12 @@ const HomeService = () => {
   const handleMouseEnter1 = () => {
     setIsHovered1(true);
   };
-
   const handleMouseLeave1 = () => {
     setIsHovered1(false);
   };
   const handleMouseEnter2 = () => {
     setIsHovered2(true);
   };
-
   const handleMouseLeave2 = () => {
     setIsHovered2(false);
   };
@@ -41,7 +39,7 @@ const HomeService = () => {
             <img
               src={!isHover1 ? ser1 : car1}
               alt=""
-              className="lg:max-w-[440px] h-[280px]  rounded-xl object-center transition-opacity duration-1000"
+              className={`lg:max-w-[440px] h-[280px]  rounded-xl object-center transition-opacity duration-300`}
               onMouseEnter={handleMouseEnter1}
               onMouseLeave={handleMouseLeave1}
             />
@@ -65,7 +63,7 @@ const HomeService = () => {
             <img
               src={!isHover2 ? ser2 : car2}
               alt=""
-              className=" lg:max-w-[440px] h-[280px]  rounded-xl"
+              className={`lg:max-w-[440px] h-[280px]  rounded-xl object-center transition-opacity duration-300`}
               onMouseEnter={handleMouseEnter2}
               onMouseLeave={handleMouseLeave2}
             />
