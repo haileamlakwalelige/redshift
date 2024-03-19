@@ -10,11 +10,11 @@ const HomeAbout = () => {
   return (
     <div className="mt-6">
       <div className="flex justify-start items-start ml-2 py-6">
-        <p className="  items-end font-extrabold vie text-secondary text-[18px] lg:text-[20px]  pr-3">
+        <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] md:text-[30px] lg:text-[32px] pb-2">
           ABOUT
         </p>
         <div>
-          <p className="relative  items-end max-w-[100px] font-extrabold vie text-secondary text-[18px] lg:text-[20px] pb-2">
+          <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[20px] sm:text-[25px] ml-8 md:text-[30px] lg:text-[32px] pb-2">
             REDSHIFT
           </p>
           <span className="absolute h-1 -mt-1 lg:-mt-2    min-w-[100px]  bg-primary"></span>
