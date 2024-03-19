@@ -22,7 +22,7 @@ const DetailWhat = () => {
             <p className="items-end max-w-[100px] text-center font-extrabold  text-secondary text-[18px] lg:text-[20px]  px-2 pb-2">
               THEM
             </p>
-            <span className="h-[2px] -mt-1 lg:-mt-2 min-w-[150px]  bg-primary"></span>
+            <span className="h-[2px] -mt-1 lg:-mt-2 min-w-[100px]  bg-primary"></span>
           </div>
           <ul>
             <li>
@@ -119,7 +119,7 @@ const DetailWhat = () => {
             <p className="items-end max-w-[100px] font-extrabold  text-secondary  text-center text-[18px] lg:text-[20px]  px-2 pb-2">
               US
             </p>
-            <span className="h-[2px] -mt-1 lg:-mt-2  min-w-[70px]  bg-primary"></span>
+            <span className="h-[2px] -mt-1 lg:-mt-2  min-w-[50px]  bg-primary"></span>
           </div>
           <ul>
             <li>
