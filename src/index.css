@@ -71,9 +71,9 @@ button {
 }
 .imo:hover {
     border-radius: 50px;
-    background: #e0e0e0;
-    box-shadow: 20px 20px 60px #d1cdcd,
-        -20px -20px 60px #ffffff;
+    background: #fcfafa;
+    box-shadow: 10px 10px 10px #f3f0f0,
+        -20px -20px 30px #ffffff;
     @apply duration-300;
 }
 
