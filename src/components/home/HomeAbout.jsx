@@ -2,13 +2,17 @@ import React from "react";
 import vision from "../../assets/vision.png";
 import mission from "../../assets/mission.png";
 import goal from "../../assets/goal.png";
+import about from "../../assets/aboutback.png";
 import "./style.css";
 import Button from "../Reusable/button/Button";
 import { Link } from "react-router-dom";
 
 const HomeAbout = () => {
   return (
-    <div className="mt-6">
+    <div
+      style={{ backgroundImage: `url(${about})` }}
+      className="mt-6 bg-cover bg-center bg-no-repeat"
+    >
       <div className="flex justify-start items-start ml-2 py-6">
         <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[25px] md:text-[30px] lg:text-[32px] pb-2">
           ABOUT

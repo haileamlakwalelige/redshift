@@ -1,5 +1,5 @@
 import React from "react";
-import bg from '../../assets/redbgs.png';
+import bg from '../../assets/redback.png';
 import Button from "../Reusable/button/Button";
 import { Link } from "react-router-dom";
 // import Button from "../Reusable/Button";
