@@ -26,7 +26,7 @@ const Footer = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "http://192.168.100.29:8000/api/registers/",
+        "http://192.168.100.29:8000/api/subscribers/",
         {
           method: "POST",
           headers: {
