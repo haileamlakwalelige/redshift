@@ -4,6 +4,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./sliding.css";
+import part1 from '../../assets/part1.png';
+import part2 from '../../assets/part2.png';
+import part3 from '../../assets/part3.png';
+import part4 from '../../assets/part4.png';
 
 function Sliding() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -15,7 +19,7 @@ function Sliding() {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 4, // Show 4 slides initially
+    slidesToShow: 3, // Show 4 slides initially
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
@@ -25,12 +29,6 @@ function Sliding() {
     nextArrow: null, // Hide next button
     prevArrow: null, // Hide prev button
     responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3, // Show 3 slides on screens between 1024px and 768px
-        },
-      },
       {
         breakpoint: 768,
         settings: {
@@ -55,7 +53,7 @@ function Sliding() {
         <div>
           <div className="carousel-item mx-3">
             <img
-              src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
+              src={part1}
               alt="Burger"
               className="h-[150px] w-[150px]"
             />
@@ -64,7 +62,7 @@ function Sliding() {
         <div>
           <div className="carousel-item mx-3">
             <img
-              src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
+              src={part2}
               alt="Burger"
               className="h-[150px] w-[150px]"
             />
@@ -73,7 +71,7 @@ function Sliding() {
         <div>
           <div className="carousel-item mx-3">
             <img
-              src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
+              src={part3}
               alt="Burger"
               className="h-[150px] w-[150px]"
             />
@@ -82,25 +80,7 @@ function Sliding() {
         <div>
           <div className="carousel-item mx-3">
             <img
-              src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
-              alt="Burger"
-              className="h-[150px] w-[150px]"
-            />
-          </div>
-        </div>
-        <div>
-          <div className="carousel-item mx-3">
-            <img
-              src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
-              alt="Burger"
-              className="h-[150px] w-[150px]"
-            />
-          </div>
-        </div>
-        <div>
-          <div className="carousel-item mx-3">
-            <img
-              src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
+              src={part4}
               alt="Burger"
               className="h-[150px] w-[150px]"
             />

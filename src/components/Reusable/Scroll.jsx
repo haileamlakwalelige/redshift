@@ -59,7 +59,7 @@ function Scroll() {
             <img
               src={selectedImage}
               alt="Image Data"
-              className="h-full w-[60vw] rounded-xl"
+              className="h-full w-full lg:w-[60vw] rounded-xl"
             />
           )}
         </div>
