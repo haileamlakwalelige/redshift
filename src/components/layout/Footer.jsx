@@ -1,13 +1,57 @@
-import React from 'react'
-import logo from "../../assets/footerlogo.png";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../../assets/footerlogo.png";
 import t from "../../assets/t.png";
 import g from "../../assets/g.png";
 import l from "../../assets/l.png";
 import te from "../../assets/te.png";
-import footer from '../../assets/footers.png'
+import footer from "../../assets/footers.png";
+import { toast } from "react-toastify";
 
 const Footer = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch(
+        "http://192.168.100.29:8000/api/registers/",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
+      if (response.ok) {
+        // console.log("Data submitted successfully!");
+        toast.success("Subscribed Successfully!");
+        // Optionally reset form fields after successful submission
+        setFormData({
+          name: "",
+          email: "",
+        });
+      } else {
+        // console.error("Failed to submit data");
+        toast.error("Failed to submit data!");
+      }
+    } catch (error) {
+      console.error("Error submitting data:", error);
+    }
+  };
+
   return (
     <div
       style={{
@@ -15,9 +59,8 @@ const Footer = () => {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        // width: "100vw" // You can include or exclude this line as needed
       }}
-      className=" -mt-10 z-30"
+      className="-mt-10 z-30"
     >
       <div className="flex justify-center items-center">
         <div className="flex flex-col justify-center items-center px-2 sm:px-4 md:px-8 lg:px-16">
@@ -35,7 +78,7 @@ const Footer = () => {
                 </p>
                 <p className="text-footer text-center pt-2">Stay Connected</p>
                 <div className="mt-6">
-                  <img src={logo} alt="" className="w-[269px] h-[175]" />
+                  <img src={logo} alt="Logo" className="w-[269px] h-[175]" />
                 </div>
               </div>
             </div>
@@ -44,25 +87,34 @@ const Footer = () => {
                 <p className="text-footer font-semibold text-[18px] md:text-[19px] lg:text-[20px] pb-1 text-center">
                   Subscribe to Our Newsletter!
                 </p>
-                <form className="flex justify-center items-center flex-col px-10">
+                <form
+                  className="flex justify-center items-center flex-col px-10"
+                  onSubmit={handleSubmit}
+                >
                   <div className="flex flex-col justify-center items-start gap-2 pt-6">
                     <label className="text-footer">Name</label>
                     <input
                       type="text"
-                      className="min-w-[300px] lg:min-w-[350px]  h-[37px] pl-3 bg-footer rounded-xl outline-none focus:outline-none"
+                      name="name"
+                      value={formData.name}
+                      onChange={handleChange}
+                      className="min-w-[300px] lg:min-w-[350px] h-[37px] pl-3 bg-footer rounded-xl outline-none focus:outline-none"
                     />
                   </div>
                   <div className="flex flex-col justify-center items-start gap-2 pt-6">
                     <label className="text-footer">Email</label>
                     <input
                       type="email"
-                      className="min-w-[300px] lg:min-w-[350px]  h-[37px] pl-3 bg-footer rounded-xl outline-none focus:outline-none"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      className="min-w-[300px] lg:min-w-[350px] h-[37px] pl-3 bg-footer rounded-xl outline-none focus:outline-none"
                     />
                   </div>
                   <div className="mt-10">
                     <button
                       type="submit"
-                      className="text-footer imos bg-primary hover:bg-[#25224d] duration-500 hover:rounded-xl px-10 py-3 text-[16px] md:text-[18px] "
+                      className="text-footer imos bg-primary hover:bg-[#25224d] duration-500 hover:rounded-xl px-10 py-3 text-[16px] md:text-[18px]"
                     >
                       Subscribe
                     </button>
@@ -86,11 +138,11 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex  gap-6 md:gap-12 lg:gap-16 pb-10">
-            <img src={g} alt="" className="h-[40px] w-[40px]" />
-            <img src={te} alt="" className="h-[40px] w-[40px]" />
-            <img src={l} alt="" className="h-[40px] w-[40px]" />
-            <img src={t} alt="" className="h-[40px] w-[40px]" />
+          <div className="flex gap-6 md:gap-12 lg:gap-16 pb-10">
+            <img src={g} alt="Google" className="h-[40px] w-[40px]" />
+            <img src={te} alt="Twitter" className="h-[40px] w-[40px]" />
+            <img src={l} alt="LinkedIn" className="h-[40px] w-[40px]" />
+            <img src={t} alt="Facebook" className="h-[40px] w-[40px]" />
           </div>
         </div>
       </div>
@@ -98,4 +150,4 @@ const Footer = () => {
   );
 };
 
-export default Footer
+export default Footer;
