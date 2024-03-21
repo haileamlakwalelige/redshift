@@ -15,7 +15,8 @@ const BlogDescription = () => {
         );
         const data = await response.json();
 
-        if (data.category) {
+        // Check if category exists and is a string before parsing
+        if (data.category && typeof data.category === 'string') {
           data.category = JSON.parse(data.category.replace(/=>/g, ":"));
         }
 
@@ -45,7 +46,7 @@ const BlogDescription = () => {
       <p className="text-secondary text-[16px] md:text-[20px] text-start  font-light">
         {blogData.description}
       </p>
-      {blogData && blogData.category && (
+      {blogData && blogData.category && blogData.category.length > 0 && (
         <ul>
           {blogData.category.map((category, index) => (
             <div
@@ -58,13 +59,14 @@ const BlogDescription = () => {
               <div className="flex gap-3 mx-2 md:mx-4 lg:mx-6">
                 <img src={dot} alt="" className="h-2 w-2 mt-2" />
                 <p className="text-secondary text-[16px] md:text-[20px] text-start font-light">
-                  {category.description}
+                  {category.description ?? "No description available"}
                 </p>
               </div>
             </div>
           ))}
         </ul>
       )}
+      {!blogData.category && <p>No categories available</p>}
     </div>
   );
 };
