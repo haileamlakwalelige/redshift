@@ -69,7 +69,7 @@ function Gallery() {
             <img
               src={selectedImage}
               alt="Image Data"
-              className="h-full w-[60vw]"
+              className="h-full w-full lg:w-[60vw]"
             />
           )}
         </div>
