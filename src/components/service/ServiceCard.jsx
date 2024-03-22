@@ -67,9 +67,9 @@ const ServiceCard = () => {
         </p>
         <span className="h-[3px] -mt-1 lg:-mt-2 ml-3 lg:ml-12 xl:ml-16 min-w-[112px] lg:min-2-[350px]  text-end bg-primary"></span>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-16 px-2 sm:px-4 md:px-8 lg:px-16 mx-2 sm:mx-4 md:mx-16 lg:mx-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-16 px-2 sm:px-4 md:px-8 lg:px-16 mx-2 sm:mx-4 md:mx-16">
         {data.map((item, index) => (
-          <div className="carousel-item" key={item.id}>
+          <div className="carousel-item w-full card" key={item.id}>
             {item.title && item.text && (
               <div
                 onMouseEnter={() => handleMouseEnter(index)}
@@ -82,7 +82,7 @@ const ServiceCard = () => {
                 <p className="text-black line-clamp-6 mb-10 text-center text-[14px] py-5 px-4 inter">
                   {item.text}
                 </p>
-                <div className="flex flex-col items-center">
+                {/* <div className="flex flex-col items-center">
                   <Wave
                     fill="#36A0D2"
                     paused={!hoverStates[index]}
@@ -94,7 +94,7 @@ const ServiceCard = () => {
                     }}
                     className="bottom-0 -mb-2 z-10 -mt-8 rounded-b-2xl "
                   />
-                </div>
+                </div> */}
               </div>
             )}
           </div>
