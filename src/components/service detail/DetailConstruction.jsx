@@ -5,7 +5,7 @@ import dot from "../../assets/dot.png";
 
 const DetailConstruction = () => {
   return (
-    <div
+    <div 
       style={{ backgroundImage: `url(${expert})` }}
       className="px-2 sm:px-4 md:px-8 lg:px-12 bg-cover bg-center bg-no-repeat py-10"
     >

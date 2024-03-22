@@ -4,7 +4,7 @@ import bg from "../../assets/redbgs.png";
 
 const DetailSecondIntro = () => {
   return (
-    <div style={{ backgroundImage: `url(${bg})` }}>
+    <div id="hybrid" style={{ backgroundImage: `url(${bg})` }}>
       <div className="flex md:flex-row flex-col justify-center items-center gap-6 mt-6 py-10 px-2 lg:px-6 pb-20">
         <div className="md:w-1/2 lg:w-3/5">
           <div className=" flex justify-center items-center flex-col ml-2 py-6 px-2">
