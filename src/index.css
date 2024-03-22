@@ -101,3 +101,11 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
     @apply bg-sub;
 }
+
+.card:hover {
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+               @apply duration-500;
+  }
