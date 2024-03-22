@@ -4,6 +4,8 @@ import img1 from "../../../assets/1.png";
 import img2 from "../../../assets/2.png";
 import img3 from "../../../assets/3.png";
 import img4 from "../../../assets/4.png";
+import img5 from "../../../assets/show1.png";
+import img6 from "../../../assets/home10.jpg";
 
 const Slider = () => {
   const [active, setActive] = useState(0);
@@ -19,7 +21,7 @@ const Slider = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const items = [img1, img2, img3, img4];
+  const items = [img1, img2, img3, img4, img5, img6];
 
   const nextSlide = () => {
     setActive((prevActive) => (prevActive + 1) % items.length);
@@ -59,7 +61,7 @@ const Slider = () => {
               className="absolute inset-0 flex flex-col justify-center px-2 sm:px-4 text-start pt-72 lg:px-10 items-start text-white z-20 lg:mt-[20px]"
               style={{
                 background:
-                  "linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))"
+                  "linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))",
               }}
             >
               <p className="text-[26px] md:text-[30px] lg:text-[36px] font-extrabold text-center mb-4">
