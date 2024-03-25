@@ -42,7 +42,7 @@ const HomeRed = () => {
           </div>
         </div>
       </div>
-      <Link to="/about">
+      <Link to="/about" className="justify-center items-center flex">
         <Button className="mt-10" title="Read more" type="button" />
       </Link>
     </div>
