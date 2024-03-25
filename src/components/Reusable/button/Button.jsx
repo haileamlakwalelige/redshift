@@ -5,7 +5,7 @@ const Button = ({ title, type }) => {
   return (
     <div>
       <div className="container py-10">
-        <button type={type} className="button text-primary button-3 flex">
+        <button type={type} className="button text-primary button-3 flex justify-center items-center text-center">
           {title}
         </button>
       </div>
