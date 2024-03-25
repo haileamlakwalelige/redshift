@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 /*  */
 /* Tailiwnd css files */
@@ -11,101 +11,111 @@
 /*  */
 /* Styling start here */
 .vie {
-    font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
 
 body {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .cav {
-    font-family: "Caveat", cursive;
+  font-family: "Caveat", cursive;
 }
 
 p,
 h1,
 li,
 button {
-    font-family: "Inter", sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 .inter {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .cri {
-    font-family: "Crimson Text", serif;
+  font-family: "Crimson Text", serif;
 }
 
 .rotat {
-    transform: rotate(45deg);
-  }
+  transform: rotate(45deg);
+}
 
 .blog {
-    background: url('./assets/blogbg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background: url("./assets/blogbg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .service {
-    background: url('./assets/servicebg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background: url("./assets/servicebg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .about {
-    background: url('./assets/1.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background: url("./assets/1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .bg {
-    background-color: rgba(0, 0, 0, 0.5);
-    background: url('./assets/introbg.png');
-    /* Adjust the last value (0.5) to change opacity */
+  background-color: rgba(0, 0, 0, 0.5);
+  background: url("./assets/introbg.png");
+  @apply bg-no-repeat bg-center h-[100vh];
+  /* Adjust the last value (0.5) to change opacity */
 }
 .footer {
-    background: url('./assets/footers.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* width: 100vw; */
+  background: url("./assets/footers.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 100vw; */
 }
 .imo:hover {
-    border-radius: 50px;
-    background: #fcfafa;
-    box-shadow: 10px 10px 10px #f3f0f0,
-        -20px -20px 30px #ffffff;
-    @apply duration-300;
+  border-radius: 50px;
+  background: #fcfafa;
+  box-shadow: 10px 10px 10px #f3f0f0, -20px -20px 30px #ffffff;
+  @apply duration-300;
 }
 
 .imos:hover {
-    border-radius: 50px;
-    background: #333232;
-    box-shadow: 2px 2px 6px #11035e,
-        -2px -2px 6px #02074d;
-    @apply duration-300;
+  border-radius: 50px;
+  background: #333232;
+  box-shadow: 2px 2px 6px #11035e, -2px -2px 6px #02074d;
+  @apply duration-300;
 }
 body::-webkit-scrollbar {
-    width: 8px;
-    @apply mx-4;
+  width: 8px;
+  @apply mx-4;
 }
 
 body::-webkit-scrollbar-track {
-    background: #f1f1f1;
+  background: #f1f1f1;
 }
 
 body::-webkit-scrollbar-thumb {
-    @apply bg-primary;
-    border-radius: 10px;
+  @apply bg-primary;
+  border-radius: 10px;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-    @apply bg-sub;
+  @apply bg-sub;
 }
 
 .card:hover {
-    border-radius: 30px;
-    background: #e0e0e0;
-    box-shadow: 15px 15px 30px #bebebe,
-               -15px -15px 30px #ffffff;
-               @apply duration-500;
-  }
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  @apply duration-500;
+}
+
+.test {
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 20px 20px 3px #bebebe, -20px -20px 3px #ffffff;
+  @apply border-2 border-gray-50;
+}
+.test:hover{
+    border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 25px #bebebe,
+             -20px -20px 25px #ffffff;
+}

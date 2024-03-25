@@ -17,6 +17,7 @@ import Navbar2 from "./components/layout/Navbar2";
 import Navbar1 from "./components/layout/Navbar1";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the CSS file for AOS
+import Testimoial from "./components/Reusable/testimony/Testimoial";
 
 const App = () => {
   const location = useLocation();
@@ -31,9 +32,9 @@ const App = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000, // Set the duration for animations (in milliseconds)
-      easing: 'ease-in-out', // Set the easing function for animations
+      easing: "ease-in-out", // Set the easing function for animations
       once: true, // Set whether animations should only happen once
-      mirror: false // Set whether elements should animate out while scrolling past them
+      mirror: false, // Set whether elements should animate out while scrolling past them
     });
   }, []);
 
@@ -52,6 +53,7 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogDetail />} />
         <Route path="/service-detail" element={<ServiceDetail />} />
+        <Route path="/test" element={<Testimoial />} />
         <Route path="*" element={<Four0Four />} />
       </Routes>
       <Cars />
