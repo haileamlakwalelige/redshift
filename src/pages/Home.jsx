@@ -11,6 +11,7 @@ import FAQ from "../components/home/FAQ";
 import Slider from "../components/Reusable/sliding/Slider";
 import HomeJoin from "../components/home/HomeJoin";
 import TestimonialSection from "../components/Reusable/try/TestimonialSection";
+import Testimoial from "../components/Reusable/testimony/Testimoial";
 
 const Home = () => {
   return (
@@ -21,7 +22,8 @@ const Home = () => {
       <HomeService />
       <HomeProducts />
       <Scroll />
-      <TestimonialSection />
+      {/* <TestimonialSection /> */}
+      <Testimoial />
       <HomePartners />
       <HomeJoin />
       <FAQ />
