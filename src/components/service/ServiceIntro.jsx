@@ -30,7 +30,7 @@ const ServiceIntro = () => {
       onMouseLeave={handleMouseLeave}
       className="min-h-screen"
     >
-      <div className="min-h-screen bg flex flex-col items-center justify-between gap-20 pt-32">
+      <div className="min-h-screen bg flex flex-col items-center justify-between gap-12 pt-24">
         <div className="md:w-full">
           <div className=" px-2 sm:px-4 md:px-6 lg:px-10 py-4 ">
             <p className="text-white text-center font-bold text-[26px] md:text-[29px] lg:text-[40px] xl:text-[50px] pt-4 pb-2 inter">
@@ -48,39 +48,43 @@ const ServiceIntro = () => {
           <div
             data-aos="slide-up"
             data-aos-duration="1000"
-            className="min-h-[250px] bg-primary w-[450px] rounded-xl  border-r-2 border-sub text-white flex flex-col justify-center items-center"
+            className="min-h-[200px] hover:bg-primary bg-gradient-to-b from-primary to-transparent w-[450px] rounded-xl  border-r-2  text-white flex flex-col justify-center items-center"
           >
             <p className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
               Hybridization
             </p>
             <Link to="/service-detail#hybrid">
-            <button className="mt-8 bg-sub px-6 rounded-xl py-2 hover:bg-primary border-2 border-gray-500 hover:border-white duration-500">Learn More</button>
+              <button className="mt px-6 rounded-xl py-2 hover:bg-primary border-2 border-gray-500 hover:border-white duration-500">
+                Learn More
+              </button>
             </Link>
           </div>
           <div
             data-aos="slide-up"
             data-aos-duration="1500"
-            className="min-h-[250px] bg-primary w-[450px] rounded-xl border-r-2 border-t-2 md:border-t-transparent border-sub text-white flex flex-col justify-center items-center"
+            className="min-h-[200px] hover:bg-primary bg-gradient-to-b from-primary to-transparent w-[450px] rounded-xl border-r-2 border-t-2 md:border-t-transparent  text-white flex flex-col justify-center items-center"
           >
             <p className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
               Construction
             </p>
             <Link to="/service-detail#construction">
-            <button className="mt-8 bg-sub px-6 rounded-xl py-2 hover:bg-primary border-2 border-gray-500 hover:border-white duration-500">Learn More</button>
-
+              <button className="mt-8  px-6 rounded-xl py-2 hover:bg-primary border-2 border-gray-500 hover:border-white duration-500">
+                Learn More
+              </button>
             </Link>
           </div>
           <div
             data-aos="slide-up"
             data-aos-duration="2000"
-            className="min-h-[250px] bg-primary w-[450px] rounded-xl border-r-2 border-t-2 lg:border-t-transparent border-sub text-white flex flex-col justify-center items-center"
+            className="min-h-[200px] hover:bg-primary bg-gradient-to-b from-primary to-transparent w-[450px] rounded-xl border-r-2 border-t-2 lg:border-t-transparent  text-white flex flex-col justify-center items-center"
           >
             <p className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
               EcoMobility
             </p>
             <Link to="/service-detail">
-            <button className="mt-8 bg-sub px-6 rounded-xl py-2 hover:bg-primary border-2 border-gray-500 hover:border-white duration-500">Learn More</button>
-
+              <button className="mt-8  px-6 rounded-xl py-2 hover:bg-primary border-2 border-gray-500 hover:border-white duration-500">
+                Learn More
+              </button>
             </Link>
           </div>
         </div>
