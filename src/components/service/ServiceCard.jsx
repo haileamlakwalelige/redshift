@@ -82,25 +82,12 @@ const ServiceCard = () => {
                 <p className="text-black line-clamp-6 mb-10 text-center text-[14px] py-5 px-4 inter">
                   {item.text}
                 </p>
-                {/* <div className="flex flex-col items-center">
-                  <Wave
-                    fill="#36A0D2"
-                    paused={!hoverStates[index]}
-                    options={{
-                      height: 60,
-                      amplitude: 40,
-                      speed: 0.3,
-                      points: 2,
-                    }}
-                    className="bottom-0 -mb-2 z-10 -mt-8 rounded-b-2xl "
-                  />
-                </div> */}
               </div>
             )}
           </div>
         ))}
       </div>
-      <Link to="/service-detail">
+      <Link to="/service-detail" className="flex justify-center items-center">
         <Button type="button" title="Read More" />
       </Link>
     </div>
