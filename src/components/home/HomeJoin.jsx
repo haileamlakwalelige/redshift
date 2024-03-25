@@ -37,7 +37,10 @@ const HomeJoin = () => {
           join us on the journey to a more sustainable tomorrow.
         </p>
       </div>
-      <Link to="/contact#form" className="-pt-10">
+      <Link
+        to="/contact#form"
+        className="-pt-10 justify-center items-center flex"
+      >
         <Button type="button" title="Contact Us" />
       </Link>
     </div>
