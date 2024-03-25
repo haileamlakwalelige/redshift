@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import footer from "../../assets/1.png";
+import footer from "../../assets/bgabout.png";
 
 const AboutWhat = () => {
   const [isHovered, setIsHovered] = useState(false);
