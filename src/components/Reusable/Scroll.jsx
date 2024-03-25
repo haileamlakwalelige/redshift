@@ -64,7 +64,7 @@ function Scroll() {
           )}
         </div>
       </div>
-      <Link to="/product">
+      <Link to="/product" className="flex justify-center items-center">
         <Button type="button" title="Read More" />
       </Link>
     </div>
