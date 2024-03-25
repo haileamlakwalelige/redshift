@@ -79,7 +79,7 @@ const HomeService = () => {
           </div>
         </div>
       </div>
-      <Link to="/service">
+      <Link to="/service" className="flex justify-center items-center">
         <Button title="Read More" type="button" />
       </Link>
     </div>

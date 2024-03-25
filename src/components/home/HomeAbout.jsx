@@ -99,7 +99,7 @@ const HomeAbout = () => {
           </div>
         </div>
       </div>
-      <Link to="/about">
+      <Link to="/about" className="flex justify-center items-center">
         <Button type="button" title="Read More" />
       </Link>
     </div>
