@@ -3,6 +3,10 @@ import "./Testimonial.css"; // Styles for Testimonial component
 import test from "../../../assets/test.png";
 import { Link } from "react-router-dom";
 import Button from "../button/Button";
+import { BsPersonCircle } from "react-icons/bs";
+
+
+
 
 const testimonials = [
   {
@@ -36,7 +40,7 @@ const Testimonial = ({ testimonial, isSelected, onSelect }) => {
       }`}
       onClick={() => onSelect(testimonial.id)}
     >
-      <img src={testimonial.image} alt={testimonial.name} />
+      <BsPersonCircle className={`${isSelected ? "h-[70px] w-[70px]" : "mt-10 h-[30px] w-[30px]"}`}/>
       <h3>{testimonial.name}</h3>
       <p>{testimonial.text}</p>
     </div>
@@ -76,7 +80,7 @@ const TestimonialSection = () => {
           />
         ))}
       </div>
-      <Link to="/about">
+      <Link to="/about" className="justify-center items-center flex">
         <Button type="button" title="Read More" />
       </Link>
     </div>

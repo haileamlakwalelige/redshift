@@ -1,40 +1,44 @@
 import React, { useState } from "react";
 import "./Team.css"; // Import the CSS file containing the styles
 import test from "../../../assets/team.png";
+import team1 from "../../../assets/team1.png";
+import teamm from "../../../assets/teamm.png";
+import teamc from "../../../assets/teamc.png";
+import teaml from "../../../assets/teaml.png";
 
 const Team = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "John Doe",
-      position: "Front-end Developer",
-      description: "Lorem ipsum dolor sit amet.",
-      photo:
-        "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg",
+      name: "Eyerusalem Senay",
+      position: "Addis Ababa, Ethiopia",
+      description:
+        "As an agent for Redshift, I've seen the positive response from customers firsthand. The crowd funding model is inclusive and allows people from all walks of life to be part of the green mobility movement. Redshift's commitment to quality and sustainability makes it a brand I'm proud to represent.",
+      photo: teamm,
     },
     {
       id: 2,
-      name: "Jane Smith",
-      position: "UI/UX Designer",
-      description: "Lorem ipsum dolor sit amet.",
-      photo:
-        "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg",
+      name: "Terefa Gashaw",
+      position: "Addis Ababa, Ethiopia",
+      description:
+        "Redshift has revolutionized my daily commute. The electric tricycle I purchased is not only environmentally friendly but also cost-effective. The sleek design and modern features make it a joy to drive. I'm proud to be part of the Redshift community contributing to a greener Ethiopia.",
+      photo: team1,
     },
     {
       id: 3,
-      name: "Michael Johnson",
-      position: "Full-stack Developer",
-      description: "Lorem ipsum dolor sit amet.",
-      photo:
-        "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg",
+      name: "Getachew Aragaw",
+      position: "CEO,REDSHIFT CORPS LTD",
+      description:
+        "As an agent for Redshift, I've seen the positive response from customers firsthand. The crowd funding model is inclusive and allows people from all walks of life to be part of the green mobility movement. Redshift's commitment to quality and sustainability makes it a brand I'm proud to represent.",
+      photo: teamc,
     },
     {
       id: 4,
-      name: "Emily Brown",
-      position: "Software Engineer",
-      description: "Lorem ipsum dolor sit amet.",
-      photo:
-        "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg",
+      name: "Lamborot Wada",
+      position: "Addis Ababa, Ethiopia",
+      description:
+        "I recently started using Redshift's electric cab service, and I am impressed with the commitment to sustainability. The E-Cab is comfortable, and the eco-friendly approach aligns with my values. Redshift is making a positive impact, not just on transportation but also on the environment.",
+      photo: teaml,
     },
   ];
 
@@ -90,19 +94,19 @@ const Team = () => {
 
       <div className="flex justify-center items-center md:mt-32">
         {selectedMemberIndex !== null && (
-          <div className="flex justify-center items-center flex-col">
+          <div className="flex justify-center items-center flex-col max-w-[500px]">
             <img
               src={teamMembers[selectedMemberIndex].photo}
               alt={teamMembers[selectedMemberIndex].name}
               className="rounded-full h-[200px] w-[200px]"
             />
-            <h3 className="mt-5 text-[18px]">
+            <h3 className="mt-5 text-[18px] lg:text-[20px] xl:text-[22px] font-bold text-secondary">
               {teamMembers[selectedMemberIndex].name}
             </h3>
-            <p className="text-center text-[16px]">
+            <p className="text-center text-[16px] font-bold text-secondary">
               {teamMembers[selectedMemberIndex].position}
             </p>
-            <p className="text-center text-[16px]">
+            <p className="text-start text-[16px]">
               {teamMembers[selectedMemberIndex].description}
             </p>
           </div>
