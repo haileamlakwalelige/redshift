@@ -44,7 +44,7 @@ const ServiceIntro = () => {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-1 w-screen bottom-0 md:grid-cols-2 lg:grid-cols-3 justify-center items-center lg:-mb-8">
+        <div className="hidden lg:grid w-screen bottom-0  lg:grid-cols-3 justify-center items-center lg:-mb-8">
           <div
             data-aos="slide-up"
             data-aos-duration="1000"
