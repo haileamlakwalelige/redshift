@@ -59,7 +59,7 @@ const ServiceCard = () => {
         backgroundSize: "cover",
         backgroundPosition: "left",
       }}
-      className="mt-16"
+      className="mt-16 flex justify-center items-center"
     >
       <div className="flex justify-center items-start flex-col ml-2 py-3 mb-3">
         <p className="  items-end font-extrabold vie text-secondary text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] pb-2">
