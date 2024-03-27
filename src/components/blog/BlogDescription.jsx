@@ -11,7 +11,7 @@ const BlogDescription = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://192.168.100.29:8000/api/blogs/${id}`
+          `http://dashboard.redshiftbusinessgroup.com/api/blogs/${id}`
         );
         const data = await response.json();
 

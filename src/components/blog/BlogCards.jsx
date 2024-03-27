@@ -10,7 +10,7 @@ const BlogCards = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://192.168.100.29:8000/api/blogs");
+        const response = await fetch("http://dashboard.redshiftbusinessgroup.com/api/blogs");
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
