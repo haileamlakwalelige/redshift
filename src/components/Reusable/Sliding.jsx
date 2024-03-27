@@ -46,44 +46,30 @@ function Sliding() {
   
   return (
     <div
+      data-aos="fade-up"
+      data-aos-duration="2500"
       className={`slider-container py-10 ${isExpanded ? "expanded" : ""}`}
       onClick={toggleSize}
     >
       <Slider {...settings}>
         <div>
           <div className="carousel-item mx-3">
-            <img
-              src={part1}
-              alt="Burger"
-              className="h-[150px] w-[150px]"
-            />
+            <img src={part1} alt="Burger" className="h-[150px] w-[150px]" />
           </div>
         </div>
         <div>
           <div className="carousel-item mx-3">
-            <img
-              src={part2}
-              alt="Burger"
-              className="h-[150px] w-[150px]"
-            />
+            <img src={part2} alt="Burger" className="h-[150px] w-[150px]" />
           </div>
         </div>
         <div>
           <div className="carousel-item mx-3">
-            <img
-              src={part3}
-              alt="Burger"
-              className="h-[150px] w-[150px]"
-            />
+            <img src={part3} alt="Burger" className="h-[150px] w-[150px]" />
           </div>
         </div>
         <div>
           <div className="carousel-item mx-3">
-            <img
-              src={part4}
-              alt="Burger"
-              className="h-[150px] w-[150px]"
-            />
+            <img src={part4} alt="Burger" className="h-[150px] w-[150px]" />
           </div>
         </div>
       </Slider>
