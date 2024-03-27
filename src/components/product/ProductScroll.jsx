@@ -16,8 +16,8 @@ function ProductScroll({ onImageSelect }) {
     { src: ser8, data: "Data for image 4", id: 3 },
     { src: ser6, data: "Data for image 2", id: 2 },
     { src: ser7, data: "Data for image 3", id: 3 }, 
-    { src: ser10, data: "Data for image 3", id: 3 }, 
-    { src: ser11, data: "Data for image 3", id: 3 },
+    { src: ser10, data: "Data for image 3", id: 2 }, 
+    { src: ser11, data: "Data for image 3", id: 2 },
     
     
   ];

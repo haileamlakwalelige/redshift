@@ -17,9 +17,6 @@ const Products = () => {
       <div className="lg:mt-4">
         <ProductScroll onImageSelect={handleImageSelect} />
       </div>
-      <div data-aos="fade-up" data-aos-duration="2500">
-        {selectedImageData ? <ProductThree /> : <ProductFourTwo />}
-      </div>
     </div>
   );
 };
