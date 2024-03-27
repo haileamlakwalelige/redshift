@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ser1 from "../../assets/ser1.jpg";
 import ser2 from "../../assets/hoverf.jpg";
 import car1 from "../../assets/hovert.jpg";
-import car2 from "../../assets/hover.jpg";
+import car2 from "../../assets/car2.jpg";
 import Button from "../Reusable/button/Button";
 import { Link } from "react-router-dom";
 
