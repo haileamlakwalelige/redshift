@@ -23,7 +23,7 @@ const ContactForm = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "http://192.168.100.29:8000/api/rigistrations/",
+        "http://dashboard.redshiftbusinessgroup.com/api/rigistrations/",
         {
           method: "POST",
           headers: {
