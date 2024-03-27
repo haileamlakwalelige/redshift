@@ -28,7 +28,7 @@ const Team = () => {
     },
     {
       id: 4,
-      name: "Lamborot Wada",
+      name: "Lamrot Wada",
       position: "Marketing",
       photo: teaml,
     },

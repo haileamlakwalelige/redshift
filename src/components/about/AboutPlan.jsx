@@ -1,5 +1,5 @@
 import React from "react";
-import plan1 from "../../assets/plan1.png";
+import plan1 from "../../assets/plan.jpg";
 import plan2 from "../../assets/plan2.png";
 
 const AboutPlan = () => {
