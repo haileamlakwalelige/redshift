@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { IoTodayOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import Wave from "react-wavify";
+import data from '../../data/data.json';
+
 
 const BlogCards = () => {
   const [hoverStates, setHoverStates] = useState([]);
@@ -41,7 +42,7 @@ const BlogCards = () => {
   return (
     <div className="mt-16 px-10">
       <div className="carousel gap-10 lg:gap-16 sm:px-4 md:px-8 lg:px-16 mx-2 sm:mx-4 md:mx-8 px-10">
-        {blogs.map((item, index) => (
+        {data.map((item, index) => (
           <div className="carousel-item" key={item.id}>
             {item.title && item.content && item.date && (
               <div
