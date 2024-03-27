@@ -12,16 +12,16 @@ const Testimoial = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="bg-center bg-cover bg-no-repeat"
+      className="bg-center bg-cover bg-no-repeat" data-aos-duration="3000" data-aos="slide-up"
     >
-      <div className="flex justify-center items-start flex-col ml-2 pt-20 pb-32 md:pb-0 md:py-20 lg:py-10 mb-3">
-        <p className="  items-end font-extrabold vie text-secondary text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] pb-2 ">
+      <div  className="flex justify-center items-start flex-col ml-2 py-4 md:pb-0 md:py-16 lg:py-10 mb-3">
+        <p className="  items-end font-extrabold text-secondary text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] pb-2 ">
           TESTIMONIES
         </p>
         <span className="h-[3px] -mt-1 lg:-mt-2 ml-3 lg:ml-12 xl:ml-16 min-w-[112px] lg:min-2-[350px]  text-end bg-primary"></span>
       </div>
-      <div className="flex justify-center items-center min-w-screen">
-        <div className="carousel carousel-center max-w-screen p-4 space-x-10  rounded-box px-10 min-w-screen w-full">
+      <div className="flex justify-center items-center min-w-screen lg:-mt-6">
+        <div className="flex flex-wrap justify-center items-center max-w-screen p-4 space-x-10 space-y-10  rounded-box px-10 min-w-screen w-full">
           <div className="carousel-item max-w-[300px] min-h-96 flex flex-col text-center justify-center items-center test px-2 md:px-4 lg:px-6">
             <BsPersonCircle className="text-[#002060] h-[50px] w-[50px]" />
             <p className="text-secondary font-bold text-[16px] md:text-[20px] lg:text-[24px]">
@@ -72,7 +72,7 @@ const Testimoial = () => {
           </div>
         </div>
       </div>
-      <Link to="/about" className="justify-center items-center flex py-10">
+      <Link to="/about" className="justify-center items-center flex">
         <Button type="button" title="Read More" />
       </Link>
     </div>
