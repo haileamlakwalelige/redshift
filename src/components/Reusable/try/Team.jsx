@@ -11,33 +11,25 @@ const Team = () => {
     {
       id: 1,
       name: "Eyerusalem Senay",
-      position: "Addis Ababa, Ethiopia",
-      description:
-        "As an agent for Redshift, I've seen the positive response from customers firsthand. The crowd funding model is inclusive and allows people from all walks of life to be part of the green mobility movement. Redshift's commitment to quality and sustainability makes it a brand I'm proud to represent.",
+      position: "Sales",
       photo: teamm,
     },
     {
       id: 2,
       name: "Terefa Gashaw",
-      position: "Addis Ababa, Ethiopia",
-      description:
-        "Redshift has revolutionized my daily commute. The electric tricycle I purchased is not only environmentally friendly but also cost-effective. The sleek design and modern features make it a joy to drive. I'm proud to be part of the Redshift community contributing to a greener Ethiopia.",
+      position: "Chief Operating Officer",
       photo: team1,
     },
     {
       id: 3,
       name: "Getachew Aragaw",
       position: "CEO,REDSHIFT CORPS LTD",
-      description:
-        "As an agent for Redshift, I've seen the positive response from customers firsthand. The crowd funding model is inclusive and allows people from all walks of life to be part of the green mobility movement. Redshift's commitment to quality and sustainability makes it a brand I'm proud to represent.",
       photo: teamc,
     },
     {
       id: 4,
       name: "Lamborot Wada",
-      position: "Addis Ababa, Ethiopia",
-      description:
-        "I recently started using Redshift's electric cab service, and I am impressed with the commitment to sustainability. The E-Cab is comfortable, and the eco-friendly approach aligns with my values. Redshift is making a positive impact, not just on transportation but also on the environment.",
+      position: "Marketing",
       photo: teaml,
     },
   ];
@@ -64,6 +56,8 @@ const Team = () => {
         backgroundPosition: "center",
       }}
       className="pb-10"
+      data-aos="fade-up"
+      data-aos-duration="3000"
     >
       <div className="flex justify-center items-start flex-col ml-2 pt-20  mb-3">
         <p className="  items-end font-extrabold vie text-secondary text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] pb-2 ">
@@ -87,7 +81,6 @@ const Team = () => {
             />
             <h3 className="mt-2 text-[14px]">{member.name}</h3>
             <p className="text-[12px]">{member.position}</p>
-            <p className="text-[12px]">{member.description}</p>
           </div>
         ))}
       </div>
