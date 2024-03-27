@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-import img1 from "../../assets/1.png";
-import img2 from "../../assets/2.png";
-import img3 from "../../assets/3.png";
-import img4 from "../../assets/4.png";
+import img1 from "../../assets/pro1.png";
+import img2 from "../../assets/pro2.png";
+import img4 from "../../assets/pro4.png";
 
 const ProductSlider = () => {
   const [active, setActive] = useState(0);
@@ -19,7 +18,7 @@ const ProductSlider = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const items = [img1, img2, img3, img4];
+  const items = [img1, img2, img4];
 
   const nextSlide = () => {
     setActive((prevActive) => (prevActive + 1) % items.length);
