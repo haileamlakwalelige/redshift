@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from "react";
-import ser1 from "../../assets/pro1.jpg";
-import ser2 from "../../assets/pro2.jpg";
-import ser3 from "../../assets/pro3.jpg";
-import ser4 from "../../assets/pro4.jpg";
-import ser5 from "../../assets/pro5.jpg";
 import ser6 from "../../assets/pro6.jpg";
 import ser7 from "../../assets/pro7.jpg";
 import ser8 from "../../assets/pro8.jpg";
 import ser9 from "../../assets/pro9.jpg";
+import ser10 from '../../assets/new1.jpg';
+import ser11 from '../../assets/new2.jpg';
 import ProductFourTwo from "./ProductFourTwo";
 import ProductThree from "./ProductThree";
 
@@ -15,15 +12,12 @@ import ProductThree from "./ProductThree";
 
 function ProductScroll({ onImageSelect }) {
   const images = [
-    { src: ser1, data: "Data for image 1", id: 2 },
-    { src: ser2, data: "Data for image 2", id: 2 },
     { src: ser9, data: "Data for image 4", id: 3 },
-    { src: ser3, data: "Data for image 3", id: 2 },
-    { src: ser4, data: "Data for image 4", id: 2 },
     { src: ser8, data: "Data for image 4", id: 3 },
-    { src: ser5, data: "Data for image 1", id: 2 },
     { src: ser6, data: "Data for image 2", id: 2 },
-    { src: ser7, data: "Data for image 3", id: 3 },
+    { src: ser7, data: "Data for image 3", id: 3 }, 
+    { src: ser10, data: "Data for image 3", id: 3 }, 
+    { src: ser11, data: "Data for image 3", id: 3 },
     
     
   ];
