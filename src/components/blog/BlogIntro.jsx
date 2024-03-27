@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import Wave from "react-wavify";
-import footer from "../../assets/group.png";
+import footer from "../../assets/blogbg.png";
 
 const BlogIntro = () => {
   const [isHovered, setIsHovered] = useState(false);
