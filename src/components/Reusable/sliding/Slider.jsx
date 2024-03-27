@@ -58,7 +58,7 @@ const Slider = () => {
           >
             <img src={item} alt="" className="w-full h-full object-cover" />
             <div
-              className="absolute inset-0 flex flex-col justify-center px-2 sm:px-4 text-start pt-72 lg:px-10 items-start text-white z-20 lg:mt-[20px]"
+              className="absolute inset-0 flex flex-col justify-center px-2 sm:px-4 text-start pt-32 lg:pt-72 lg:px-10 items-start text-white z-20 lg:mt-[20px]"
               style={{
                 background:
                   "linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))",
