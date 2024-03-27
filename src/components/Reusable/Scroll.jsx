@@ -37,6 +37,7 @@ function Scroll() {
   return (
     <div
       data-aos="slide-up"
+      data-aos-duration="3000"
       className="px-2 sm:px-6 md:px-12 lg:px-20 xl:px-28"
     >
       <div className="flex-col lg:flex-row h-70vh gap-4 md:gap-10 lg:gap-20 xl:gap-28 rounded-lg p-4 flex ">
@@ -59,12 +60,12 @@ function Scroll() {
             <img
               src={selectedImage}
               alt="Image Data"
-              className="h-full w-full lg:w-[60vw] rounded-xl"
+              className="h-full w-full lg:w-[60vw] max-h-[80vh] rounded-xl"
             />
           )}
         </div>
       </div>
-      <Link to="/product" className="flex justify-center items-center">
+      <Link to="/products" className="flex justify-center items-center">
         <Button type="button" title="Read More" />
       </Link>
     </div>
