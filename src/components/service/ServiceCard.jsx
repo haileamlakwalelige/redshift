@@ -80,7 +80,7 @@ const ServiceCard = () => {
                   <p className="text-primary text-center line-clamp-2 my-6 px-2 inter border-b-[2px] border-primary font-bold text-[16px] md:text-[18px] lg:text-[20px] py-5">
                     {item.title}
                   </p>
-                  <p className="text-black line-clamp-6 mb-10 text-center text-[14px] py-5 px-4 inter">
+                  <p className="text-black md:line-clamp-6 mb-10 text-center text-[14px] py-5 px-4 inter">
                     {item.text}
                   </p>
                 </div>
