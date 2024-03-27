@@ -13,14 +13,14 @@ import Button from "./button/Button";
 
 function Scroll() {
   const images = [
+    { src: ser6, data: "Data for image 6" },
+    { src: ser7, data: "Data for image 7" },
+    { src: ser8, data: "Data for image 8" },
     { src: ser1, data: "Data for image 1" },
     { src: ser2, data: "Data for image 2" },
     { src: ser3, data: "Data for image 3" },
     { src: ser4, data: "Data for image 4" },
     { src: ser5, data: "Data for image 5" },
-    { src: ser6, data: "Data for image 6" },
-    { src: ser7, data: "Data for image 7" },
-    { src: ser8, data: "Data for image 8" },
     { src: ser9, data: "Data for image 9" },
   ];
 
