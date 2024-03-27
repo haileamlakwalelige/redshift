@@ -40,8 +40,8 @@ const BlogCards = () => {
   };
 
   return (
-    <div className="mt-16 px-10">
-      <div className="carousel gap-10 lg:gap-16 sm:px-4 md:px-8 lg:px-16 mx-2 sm:mx-4 md:mx-8 px-10">
+    <div className="mt-16 px-10 min-w-screen">
+      <div className="carousel gap-10 lg:gap-16 sm:px-4 md:px-8 lg:px-16 mx-2 sm:mx-4 md:mx-8 px-10 w-screen">
         {data.map((item, index) => (
           <div className="carousel-item" key={item.id}>
             {item.title && item.content && item.date && (
@@ -63,7 +63,6 @@ const BlogCards = () => {
                   </p>
                 </div>
                 <div className="flex flex-col items-center">
-                 
                   <Link
                     to={`/blog/${encodeURIComponent(item.id)}`}
                     className=" text-primary font-bold text-[16px] md:text-[18px] lg:text-[20px] pt-14 z-20"
