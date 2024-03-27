@@ -6,7 +6,7 @@ const AboutBusiness = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="3000"
+      data-aos-duration="2500"
       className="px-2 sm:px-6 md:px-12 lg:px-20 mt-5"
     >
       <div className="flex justify-center items-start flex-col ml-2 py-6">

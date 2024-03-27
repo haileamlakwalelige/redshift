@@ -3,8 +3,11 @@ import market from "../../assets/market.png";
 
 const AboutMarket = () => {
   return (
-    <div data-aos="fade-left"
-    data-aos-duration="3000" className="px-2 sm:px-6 md:px-12 lg:px-20 mt-5">
+    <div
+      data-aos="fade-left"
+      data-aos-duration="2500"
+      className="px-2 sm:px-6 md:px-12 lg:px-20 mt-5"
+    >
       <div className="flex justify-center items-start flex-col ml-2 py-6">
         <p className="items-end max-w-full font-extrabold vie text-secondary text-[18px] lg:text-[20px]  px-2 pb-2">
           MARKET SIZE{" "}

@@ -26,7 +26,7 @@ const HomeService = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="3000"
+      data-aos-duration="2500"
       className=" overflow-x-hidden bg-[#F8F9FA] overflow-y-hidden"
     >
       <div className="flex justify-start items-start ml-2 py-6">

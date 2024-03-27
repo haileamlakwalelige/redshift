@@ -15,7 +15,7 @@ const HomeJoin = () => {
         style={{ backgroundImage: `url(${join})` }}
         className="min-h-[426px] px-2 sm:px-6 md:px-12 lg:px-32 flex flex-col justify-center items-start bg-cover bg-center bg-no-repeat"
         data-aos="slide-up"
-        data-aos-duration="3000"
+        data-aos-duration="2500"
       >
         <div className="flex gap-3">
           <img src={globe} alt="" className="w-[50px] h-[50px]" />

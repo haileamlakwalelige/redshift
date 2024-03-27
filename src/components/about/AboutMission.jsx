@@ -3,7 +3,7 @@ import mission from "../../assets/vision.png";
 
 const AboutMission = () => {
   return (
-    <div data-aos="slide-up" data-aos-duration="3000">
+    <div data-aos="slide-up" data-aos-duration="2500">
       <div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center items-center px-2 sm:px-4 my-10">
           <div className="min-h-[355px] flex lg:col-span-2 flex-col justify-center items-start border-2 border-gray-100 rounded-2xl py-10 lg:pb-20 px-2 sm:px-4 md:px-8 lg:px-12 shadow-md">

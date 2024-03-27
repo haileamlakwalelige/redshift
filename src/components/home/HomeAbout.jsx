@@ -76,7 +76,7 @@ const HomeAbout = () => {
             </div>
             <div
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2500"
               className="flex justify-center items-center"
             >
               <div className="bg-[#F8F9FA] imo rounded-xl min-h-[420px] max-w-[338px] px-2   py-8">

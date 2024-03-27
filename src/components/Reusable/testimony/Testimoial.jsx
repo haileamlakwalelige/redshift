@@ -12,9 +12,11 @@ const Testimoial = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="bg-center bg-cover bg-no-repeat" data-aos-duration="3000" data-aos="slide-up"
+      className="bg-center bg-cover bg-no-repeat"
+      data-aos-duration="2500"
+      data-aos="slide-up"
     >
-      <div  className="flex justify-center items-start flex-col ml-2 py-4 md:pb-0 md:py-16 lg:py-10 mb-3">
+      <div className="flex justify-center items-start flex-col ml-2 py-4 md:pb-0 md:py-16 lg:py-10 mb-3">
         <p className="  items-end font-extrabold text-secondary text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] pb-2 ">
           TESTIMONIES
         </p>

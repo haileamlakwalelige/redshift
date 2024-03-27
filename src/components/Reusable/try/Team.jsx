@@ -57,7 +57,7 @@ const Team = () => {
       }}
       className="pb-10"
       data-aos="fade-up"
-      data-aos-duration="3000"
+      data-aos-duration="2500"
     >
       <div className="flex justify-center items-start flex-col ml-2 pt-20  mb-3">
         <p className="  items-end font-extrabold vie text-secondary text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] pb-2 ">

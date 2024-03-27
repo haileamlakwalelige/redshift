@@ -75,7 +75,7 @@ const ServiceIntro = () => {
           </div>
           <div
             data-aos="slide-up"
-            data-aos-duration="3000"
+            data-aos-duration="2500"
             className="min-h-[200px] hover:bg-primary bg-gradient-to-b from-primary to-transparent w-[450px] rounded-xl border-r-2 border-t-2 lg:border-t-transparent  text-white flex flex-col justify-center items-center"
           >
             <p className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
