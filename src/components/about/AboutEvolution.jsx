@@ -3,10 +3,14 @@ import bg from '../../assets/redbgs.png';
 
 const AboutEvolution = () => {
   return (
-    <div className="px-2 ">
+    <div className="px-2">
       <div className="flex justify-start items-start flex-col py-10 ">
         <div className="flex flex-col lg:flex-row justify-center items-start gap-10 lg:gap-16">
-          <div className="h-full w-full lg:w-2/5 mt-10">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            className="h-full w-full lg:w-2/5 mt-10"
+          >
             <div className=" flex justify-center items-start flex-col ml-2 py-6">
               <p className="items-end max-w-full font-extrabold vie text-secondary text-start text-[18px] lg:text-[20px]  px-2 pb-2">
                 EVOLUTION{" "}
@@ -23,7 +27,7 @@ const AboutEvolution = () => {
             style={{ backgroundImage: `url(${bg})` }}
             className="col-span-1 lg:col-span-2 w-full  lg:w-3/5 px-4"
           >
-            <div>
+            <div data-aos="fade-left" data-aos-duration="3000">
               <div className="h-[600px] w-full carousel carousel-vertical rounded-box">
                 <div className="carousel-item justify-center items-center">
                   <div className="flex flex-wrap lg:flex-nowrap gap-5 md:gap-10 lg:gap-16 py-8 justify-center lg:justify-start items-center ">

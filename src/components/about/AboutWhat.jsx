@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import footer from "../../assets/bgabout.png";
+import footer from "../../assets/aboutbg.png";
 
 const AboutWhat = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -16,7 +16,7 @@ const AboutWhat = () => {
     <div
       style={{
         background: `url(${footer})`,
-        backgroundPosition: "center",
+        backgroundPosition: "right",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundColor: "rgba(0, 0, 0, 0.5)",
@@ -30,7 +30,7 @@ const AboutWhat = () => {
         <div className="md:w-full">
           <div className=" px-2 sm:px-4 md:px-6 lg:px-10 py-4 ">
             <p className="text-white text-center font-bold text-[26px] md:text-[29px] lg:text-[32px] pt-4 pb-2 inter">
-              WHAT IS RED SHIFT?
+              WHO WE ARE ?
             </p>
             <p className="text-white text-center font-normal pb-2 mt-10">
               Red Shift is a dynamic company operating at the forefront of
