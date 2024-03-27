@@ -1,57 +1,26 @@
 [
-    {
-      "id": 1,
-      "title": "Electric Sanitation Car",
-      "content": "Designed for sanitation purposes, the Electric Sanitation Car from Red Shift features a fully electric power source, a digital dashboard, robust build, luxury instrument panel, and high-grade seats tailored for sanitation workers' comfort and safety.",
-      "date": "2024-03-27"
-    },
-    {
-      "id": 2,
-      "title": "Electric Express Car",
-      "content": "Configured for swift express transportation, the Electric Express Car from Red Shift boasts a sleek design, advanced safety features, luxurious interiors, and amenities catering specifically to express delivery needs.",
-      "date": "2024-03-27"
-    },
-    {
-      "id": 3,
-      "title": "Model 110",
-      "content": "The Model 110 from Red Shift is a versatile three-wheeler vehicle accommodating up to 2 persons, offering fuel options in electric and gasoline, and featuring advanced technology, safety features, and high-grade leather seats.",
-      "date": "2024-03-27"
-    },
-    {
-      "id": 4,
-      "title": "Model 125",
-      "content": "The Model 125 from Red Shift is designed to accommodate up to 5 persons, offering fuel options in electric and gasoline, and featuring spacious interiors, advanced safety features, and luxury amenities for a comfortable ride.",
-      "date": "2024-03-27"
-    },
-    {
-      "id": 5,
-      "title": "Model 150",
-      "content": "The Model 150 from Red Shift is built to accommodate up to 6 persons, offering fuel options in electric and gasoline, and featuring a modern design, advanced safety features, and ample seating capacity.",
-      "date": "2024-03-27"
-    },
-    {
-      "id": 6,
-      "title": "Electric Sanitation Car",
-      "content": "Red Shift's Electric Sanitation Car is meticulously designed for sanitation purposes, featuring a fully electric power source, a digital dashboard, robust build, luxury instrument panel, and high-grade seats tailored for sanitation workers' comfort and safety.",
-      "date": "2024-03-27"
-    },
-    {
-      "id": 7,
-      "title": "Electric Express Car",
-      "content": "Red Shift's Electric Express Car is configured for swift express transportation, boasting a sleek design, advanced safety features, luxurious interiors, and amenities catering specifically to express delivery needs.",
-      "date": "2024-03-27"
-    },
-    {
-      "id": 8,
-      "title": "Model 110",
-      "content": "The Model 110 from Red Shift is a versatile three-wheeler vehicle accommodating up to 2 persons, offering fuel options in electric and gasoline, and featuring advanced technology, safety features, and high-grade leather seats.",
-      "date": "2024-03-27"
-    },
-    {
-      "id": 9,
-      "title": "Model 125",
-      "content": "The Model 125 from Red Shift is designed to accommodate up to 5 persons, offering fuel options in electric and gasoline, and featuring spacious interiors, advanced safety features, and luxury amenities for a comfortable ride.",
-      "date": "2024-03-27"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Sustainable Mobility Insights",
+    "content": "Stay informed about the latest trends, technologies, and innovations in the realm of sustainable mobility. Our experts share insights into the future of electric and hybrid vehicles, contributing to a greener and more eco-friendly world.",
+    "date": "2024-March-27 09:00 AM"
+  },
+  {
+    "id": 2,
+    "title": "Behind the Scenes",
+    "content": "Get an exclusive behind-the-scenes look at our manufacturing processes. Discover how Red Shift's state-of-the-art facilities bring our electric tricycles and four-wheel vehicles to life. From design to production, we share the journey.",
+    "date": "2024-March-27 10:30 AM"
+  },
+  {
+    "id": 3,
+    "title": "Customer Stories",
+    "content": "Read firsthand experiences from Red Shift customers. Explore how our electric tricycles have transformed lives and businesses, providing cost-effective and sustainable mobility solutions. Real stories from real users.",
+    "date": "2024-March-27 01:15 PM"
+  },
+  {
+    "id": 4,
+    "title": "Industry News and Updates",
+    "content": "Stay consistently updated on the latest news and developments in the electric vehicle and transportation industry. We diligently curate relevant information to keep you abreast of the dynamic landscape.",
+    "date": "2024-March-27 03:45 PM"
+  }
+]

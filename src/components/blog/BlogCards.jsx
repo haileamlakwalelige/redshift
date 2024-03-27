@@ -48,12 +48,12 @@ const BlogCards = () => {
               <div
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={() => handleMouseLeave(index)}
-                className="section bg-white max-w-[280px] min-h-[410px] md:min-h-[416px] lg:min-h-[345px] lg:max-h-[400px] rounded-xl border-[1px] z-20 overflow-y-hidden shadow-xl"
+                className="section bg-white max-w-[320px]  min-h-[410px] md:min-h-[416px] lg:min-h-[345px] lg:max-h-[450px] rounded-xl border-[1px] z-20 overflow-y-hidden shadow-xl"
               >
-                <p className="text-primary line-clamp-1 my-6 px-2 inter border-b-[2px] border-primary font-bold text-[16px] md:text-[18px] lg:text-[20px] text-center py-2">
+                <p className="text-primary line-clamp-2 my-6 px-2 inter border-b-[2px] border-primary font-bold text-[16px] md:text-[18px] lg:text-[20px] text-center py-2">
                   {item.title}
                 </p>
-                <p className="text-black line-clamp-3 mb-10 text-center text-[14px] py-5 px-4 inter">
+                <p className="text-black mb-10 text-center text-[14px] py-5 px-4 inter">
                   {item.content}
                 </p>
                 <div className="flex justify-start items-center gap-6  px-4">
