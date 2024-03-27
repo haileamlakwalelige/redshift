@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import ser1 from "../../assets/ser1.jpg";
-import ser2 from "../../assets/ser2.png";
-import car1 from "../../assets/car1.png";
-import car2 from "../../assets/car2.png";
+import ser2 from "../../assets/hoverf.jpg";
+import car1 from "../../assets/hovert.jpg";
+import car2 from "../../assets/hover.jpg";
 import Button from "../Reusable/button/Button";
 import { Link } from "react-router-dom";
 
@@ -67,7 +67,7 @@ const HomeService = () => {
             <img
               src={!isHover2 ? ser2 : car2}
               alt=""
-              className={`lg:max-w-[440px] h-[280px]  rounded-xl object-center transition-opacity duration-300`}
+              className={`lg:max-w-[440px] lg:min-w-[440px] h-[280px]  rounded-xl object-center transition-opacity duration-300`}
               onMouseEnter={handleMouseEnter2}
               onMouseLeave={handleMouseLeave2}
             />
