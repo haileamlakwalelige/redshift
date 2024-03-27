@@ -14,22 +14,16 @@ const HomeJoin = () => {
       <div
         style={{ backgroundImage: `url(${join})` }}
         className="min-h-[426px] px-2 sm:px-6 md:px-12 lg:px-32 flex flex-col justify-center items-start bg-cover bg-center bg-no-repeat"
+        data-aos="slide-up"
+        data-aos-duration="3000"
       >
-        <div
-          className="flex gap-3"
-          data-aos="slide-up"
-          data-aos-duration="2000"
-        >
+        <div className="flex gap-3">
           <img src={globe} alt="" className="w-[50px] h-[50px]" />
           <p className="text-[25px] md:text-[30px] lg:text-[32px] font-bold">
             Join the Green Mobility Revolution
           </p>
         </div>
-        <p
-          className="text-[16px] md:text-[18px] lg:text-[20px] pt-3"
-          data-aos="slide-up"
-          data-aos-duration="2100"
-        >
+        <p className="text-[16px] md:text-[18px] lg:text-[20px] pt-3">
           Explore a cleaner, greener future with us. By choosing our innovative
           solutions, you become a vital contributor to Ethiopia's green mobility
           revolution. We're dedicated to reducing carbon emissions, promoting
@@ -39,7 +33,7 @@ const HomeJoin = () => {
       </div>
       <Link
         to="/contact#form"
-        className="-pt-10 justify-center items-center flex"
+        className="-mt-16 lg:-mt-20 justify-center items-center flex"
       >
         <Button type="button" title="Contact Us" />
       </Link>

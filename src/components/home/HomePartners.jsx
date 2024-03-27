@@ -4,7 +4,7 @@ import Sliding from "../Reusable/Sliding";
 
 const HomePartners = () => {
   return (
-    <div className="mt-5">
+    <div data-aos-duration="3000" className="mt-5">
       <div className="flex justify-center items-start flex-col ml-1 py-4">
         <p className="items-end max-w-[80px] pb-2 font-extrabold vie text-secondary text-[20px] sm:text-[25px] md:text-[30px] lg:text-[35px]">
           PARTNERS

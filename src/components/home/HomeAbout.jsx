@@ -18,10 +18,10 @@ const HomeAbout = () => {
           ABOUT
         </p>
         <div>
-          <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[20px] sm:text-[25px] ml-8 md:text-[30px] lg:text-[32px] pb-2">
+          <p className="  items-end max-w-[100px] font-extrabold vie text-secondary text-[20px] sm:text-[25px] ml-4 lg:ml-8 md:text-[30px] lg:text-[32px] pb-2 mt-1">
             REDSHIFT
           </p>
-          <span className="absolute h-1 -mt-1 lg:-mt-2    min-w-[100px]  bg-primary"></span>
+          <span className="absolute h-1 -mt-1 lg:-mt-2 hidden md:flex min-w-[100px]  bg-primary"></span>
         </div>
       </div>
       <div className="flex justify-center items-center">
@@ -52,7 +52,7 @@ const HomeAbout = () => {
             </div>
             <div
               data-aos="fade-up"
-              data-aos-duration="1500"
+              data-aos-duration="2000"
               className="flex justify-center items-center"
             >
               <div className="bg-[#F8F9FA] imo rounded-xl min-h-[420px] max-w-[338px] px-2   py-8">
@@ -63,7 +63,7 @@ const HomeAbout = () => {
                     className="text-center h-[160px] w-[139px]"
                   />
                 </div>
-                <p className="text-[20px] md:text-[22px] lg:text-[24px] font-bold text-primary py-3">
+                <p className="text-[20px]  md:text-[22px] lg:text-[24px] font-bold text-primary py-3">
                   Mission
                 </p>
                 <p className="text-black text-[16px]">
@@ -76,7 +76,7 @@ const HomeAbout = () => {
             </div>
             <div
               data-aos="fade-up"
-              data-aos-duration="2000"
+              data-aos-duration="3000"
               className="flex justify-center items-center"
             >
               <div className="bg-[#F8F9FA] imo rounded-xl min-h-[420px] max-w-[338px] px-2   py-8">

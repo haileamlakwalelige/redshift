@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ser1 from "../../assets/ser1.png";
+import ser1 from "../../assets/ser1.jpg";
 import ser2 from "../../assets/ser2.png";
 import car1 from "../../assets/car1.png";
 import car2 from "../../assets/car2.png";
@@ -24,7 +24,11 @@ const HomeService = () => {
   };
 
   return (
-    <div className="mt-10 overflow-x-hidden bg-[#F8F9FA] overflow-y-hidden">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="3000"
+      className=" overflow-x-hidden bg-[#F8F9FA] overflow-y-hidden"
+    >
       <div className="flex justify-start items-start ml-2 py-6">
         <div>
           <p className="relative  items-end  pb-3 font-extrabold vie text-secondary text-[25px] md:text-[30px] lg:text-[32px]">
@@ -39,7 +43,7 @@ const HomeService = () => {
             <img
               src={!isHover1 ? ser1 : car1}
               alt=""
-              className={`lg:max-w-[440px] h-[280px]  rounded-xl object-center transition-opacity duration-300`}
+              className={`lg:max-w-[440px] lg:min-w-[440px] h-[280px]  rounded-xl object-center transition-opacity duration-300`}
               onMouseEnter={handleMouseEnter1}
               onMouseLeave={handleMouseLeave1}
             />
