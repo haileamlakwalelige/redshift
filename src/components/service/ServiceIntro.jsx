@@ -44,48 +44,50 @@ const ServiceIntro = () => {
             </p>
           </div>
         </div>
-        <div className="hidden lg:grid w-screen bottom-0  lg:grid-cols-3 justify-center items-center lg:-mb-8">
-          <div
-            data-aos="slide-up"
-            data-aos-duration="1000"
-            className="min-h-[200px] hover:bg-primary bg-gradient-to-b from-primary to-transparent w-[450px] rounded-xl  border-r-2  text-white flex flex-col justify-center items-center"
-          >
-            <p className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-              Hybridization
-            </p>
-            <Link to="/service-detail#hybrid">
-              <button className="mt-8  px-6 rounded-xl py-2 hover:bg-primary border-2 border-gray-500 hover:border-white duration-500">
-                Learn More
-              </button>
-            </Link>
-          </div>
-          <div
-            data-aos="slide-up"
-            data-aos-duration="2000"
-            className="min-h-[200px] hover:bg-primary bg-gradient-to-b from-primary to-transparent w-[450px] rounded-xl border-r-2 border-t-2 md:border-t-transparent  text-white flex flex-col justify-center items-center"
-          >
-            <p className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-              Construction
-            </p>
-            <Link to="/service-detail#construction">
-              <button className="mt-8  px-6 rounded-xl py-2 hover:bg-primary border-2 border-gray-500 hover:border-white duration-500">
-                Learn More
-              </button>
-            </Link>
-          </div>
-          <div
-            data-aos="slide-up"
-            data-aos-duration="2500"
-            className="min-h-[200px] hover:bg-primary bg-gradient-to-b from-primary to-transparent w-[450px] rounded-xl border-r-2 border-t-2 lg:border-t-transparent  text-white flex flex-col justify-center items-center"
-          >
-            <p className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-              EcoMobility
-            </p>
-            <Link to="/service-detail">
-              <button className="mt-8  px-6 rounded-xl py-2 hover:bg-primary border-2 border-gray-500 hover:border-white duration-500">
-                Learn More
-              </button>
-            </Link>
+        <div className="justify-center items-center flex">
+          <div className="hidden lg:grid w-screen bottom-0  lg:grid-cols-3 justify-center items-center lg:-mb-8">
+            <div
+              data-aos="slide-up"
+              data-aos-duration="1000"
+              className="min-h-[200px] hover:bg-primary bg-gradient-to-b from-primary to-transparent w-[450px] rounded-xl  border-r-2  text-white flex flex-col justify-center items-center"
+            >
+              <p className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+                Hybridization
+              </p>
+              <Link to="/service-detail#hybrid">
+                <button className="mt-8  px-6 rounded-xl py-2 hover:bg-primary border-2 border-gray-500 hover:border-white duration-500">
+                  Learn More
+                </button>
+              </Link>
+            </div>
+            <div
+              data-aos="slide-up"
+              data-aos-duration="2000"
+              className="min-h-[200px] hover:bg-primary bg-gradient-to-b from-primary to-transparent w-[450px] rounded-xl border-r-2 border-t-2 md:border-t-transparent  text-white flex flex-col justify-center items-center"
+            >
+              <p className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+                Construction
+              </p>
+              <Link to="/service-detail#construction">
+                <button className="mt-8  px-6 rounded-xl py-2 hover:bg-primary border-2 border-gray-500 hover:border-white duration-500">
+                  Learn More
+                </button>
+              </Link>
+            </div>
+            <div
+              data-aos="slide-up"
+              data-aos-duration="2500"
+              className="min-h-[200px] hover:bg-primary bg-gradient-to-b from-primary to-transparent w-[450px] rounded-xl border-r-2 border-t-2 lg:border-t-transparent  text-white flex flex-col justify-center items-center"
+            >
+              <p className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+                EcoMobility
+              </p>
+              <Link to="/service-detail">
+                <button className="mt-8  px-6 rounded-xl py-2 hover:bg-primary border-2 border-gray-500 hover:border-white duration-500">
+                  Learn More
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
