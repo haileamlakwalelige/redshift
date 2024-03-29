@@ -12,7 +12,7 @@ const Products = () => {
   };
 
   return (
-    <div className="overflow-x-hidden overflow-y-hidden">
+    <div className="overflow-x-hidden overflow-y-hidden bg-white">
       <ProductSlider />
       <div className="lg:mt-4">
         <ProductScroll onImageSelect={handleImageSelect} />

@@ -20,7 +20,7 @@ const Contact = () => {
   }, [location.hash]);
 
   return (
-    <div className="mt-32">
+    <div className="mt-32 bg-white">
       <ContactIntro />
       <ContactAddress />
       <ContactFormTop />

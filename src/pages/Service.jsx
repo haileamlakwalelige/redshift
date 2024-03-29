@@ -4,7 +4,7 @@ import ServiceCard from "../components/service/ServiceCard";
 
 const Service = () => {
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden bg-white">
       <ServiceIntro />
       <ServiceCard />
     </div>

@@ -23,7 +23,7 @@ const ContactForm = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "http://dashboard.redshiftbusinessgroup.com/api/rigistrations/",
+        "http://dashboard.redshiftbusinessgroup.com/api/rigistrations",
         {
           method: "POST",
           headers: {
