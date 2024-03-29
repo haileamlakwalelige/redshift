@@ -21,7 +21,7 @@ const FAQ = () => {
       <div className="flex justify-center items-center px-2 sm:px-4 md:px-8 lg:px-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center flex-wrap">
           <div data-aos="zoom-in-down" data-aos-duration="2500">
-            <img src={faq} alt="" />
+            <img src={faq} alt="" className="max-w-[400px] max-h-[400px]"/>
           </div>
           <div
             data-aos="zoom-in-up"

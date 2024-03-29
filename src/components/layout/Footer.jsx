@@ -13,6 +13,7 @@ const Footer = () => {
     name: "",
     email: "",
   });
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,9 +25,10 @@ const Footer = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
     try {
       const response = await fetch(
-        "http://dashboard.redshiftbusinessgroup.com/api/subscribers/",
+        "http://dashboard.redshiftbusinessgroup.com/api/subscribers",
         {
           method: "POST",
           headers: {
@@ -36,19 +38,19 @@ const Footer = () => {
         }
       );
       if (response.ok) {
-        // console.log("Data submitted successfully!");
         toast.success("Subscribed Successfully!");
-        // Optionally reset form fields after successful submission
         setFormData({
           name: "",
           email: "",
         });
       } else {
-        // console.error("Failed to submit data");
         toast.error("Failed to submit data!");
       }
     } catch (error) {
       console.error("Error submitting data:", error);
+      toast.error("An error occurred while submitting data!");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -99,6 +101,7 @@ const Footer = () => {
                       value={formData.name}
                       onChange={handleChange}
                       className="min-w-[300px] lg:min-w-[350px] h-[37px] pl-3 bg-footer rounded-xl outline-none focus:outline-none"
+                      disabled={loading}
                     />
                   </div>
                   <div className="flex flex-col justify-center items-start gap-2 pt-6">
@@ -109,14 +112,16 @@ const Footer = () => {
                       value={formData.email}
                       onChange={handleChange}
                       className="min-w-[300px] lg:min-w-[350px] h-[37px] pl-3 bg-footer rounded-xl outline-none focus:outline-none"
+                      disabled={loading}
                     />
                   </div>
                   <div className="mt-10">
                     <button
                       type="submit"
-                      className="text-footer imos bg-primary hover:bg-[#25224d] duration-500 hover:rounded-xl px-10 py-3 text-[16px] md:text-[18px]"
+                      className={`text-footer imos bg-primary hover:bg-[#25224d] duration-500 hover:rounded-xl px-10 py-3 text-[16px] md:text-[18px] ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
+                      disabled={loading}
                     >
-                      Subscribe
+                      {loading ? 'Submitting...' : 'Subscribe'}
                     </button>
                   </div>
                 </form>

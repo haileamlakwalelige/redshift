@@ -34,20 +34,12 @@ const HomeRed = () => {
             </Link>
           </div>
           <div data-aos="fade-left" data-aos-duration="2500">
-            {/* <iframe
-              src="https://www.youtube.com/embed/2yBk1giIfqE"
-              title="Parallax Scrolling Effect | HTML CSS &amp; JavaScript"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-              className="w-screen lg:w-[600px] h-[450px] rounded-3xl px-3"
-            ></iframe> */}
             <iframe
               width="956"
               height="538"
               src="https://www.youtube.com/embed/huSS2yM2J44"
-              title="redvideo"
-              frameborder="0"
+              title="RedShift"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
               className="w-screen lg:w-[600px] h-[450px] rounded-3xl px-3"
