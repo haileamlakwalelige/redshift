@@ -54,7 +54,7 @@ const ServiceIntro = () => {
               Hybridization
             </p>
             <Link to="/service-detail#hybrid">
-              <button className="mt px-6 rounded-xl py-2 hover:bg-primary border-2 border-gray-500 hover:border-white duration-500">
+              <button className="mt-8  px-6 rounded-xl py-2 hover:bg-primary border-2 border-gray-500 hover:border-white duration-500">
                 Learn More
               </button>
             </Link>
