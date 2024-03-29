@@ -11,7 +11,7 @@ import Team from "../components/Reusable/try/Team";
 
 const About = () => {
   return (
-    <div className='bg-white overflow-x-hidden'>
+    <div className='bg-white overflow-hidden'>
       <AboutWhat />
       <AboutMission />
       <AboutVision />
