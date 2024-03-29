@@ -45,9 +45,6 @@ const Navbar1 = () => {
       }`}
     >
       <nav
-      //  style={{
-      //   backgroundColor: "rgba(0, 0, 0, 0.3)",
-      // }}
       style={{
         backgroundColor: scrolled ? "#002060" : "rgba(0, 0, 0, 0.3)",
       }}
@@ -131,8 +128,8 @@ const Navbar1 = () => {
               to="/contact"
               className={`${
                 !scrolled
-                  ? "nav-links but -mt-10 md:mt-0   hover:lg:rounded-3xl lg:bg-primary duration-50  font-normal"
-                  : "nav-links but -mt-10 md:mt-0   hover:lg:rounded-3xl lg:bg-white text-primary duration-50  font-normal"
+                  ? "nav-links but -mt-10 md:mt-0 rounded-xl  hover:lg:rounded-3xl lg:bg-primary duration-50  font-normal"
+                  : "nav-links but -mt-10 md:mt-0 rounded-xl  hover:lg:rounded-3xl lg:bg-white text-primary duration-50  font-normal"
               }`}
               onClick={closeMobileMenu}
             >
